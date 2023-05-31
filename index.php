@@ -41,6 +41,10 @@ Class Redirect {
           'domain' => 'hbglearns.helsingborg.se',
           'path' => '/learn/course/internal/view/elearning/62/stadsgemensam-hr-introduktion'
         ],
+        'ssa2021.helsingborg.se' => (object) [
+          'domain' => 'ssa.helsingborg.se',
+          'path' => true
+        ]
       ];
     }
 
