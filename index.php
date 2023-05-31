@@ -48,6 +48,54 @@ Class Redirect {
         'ssa2021.helsingborg.se' => (object) [
           'domain' => 'ssa.helsingborg.se',
           'path' => true
+        ],
+        'greenchange.helsingborg.se' => (object) [
+          'domain' => 'klimatavtal.helsingborg.se',
+          'path' => true
+        ],
+        'oppna.helsingborg.se' => (object) [
+          'domain' => 'helsingborg.io',
+          'path' => true
+        ],
+        'kulturmagasinet.helsingborg.se' => (object) [
+          'domain' => 'helsingborgsmuseum.se',
+          'path' => true
+        ],
+        'ideslussen.helsingborg.se' => (object) [
+          'domain' => 'intranat.helsingborg.se',
+          'path' => '/hjalp-och-stod/ideslussen/'
+        ],
+        'inhabiton.helsingborg.se' => (object) [
+          'domain' => 'inhabithon.helsingborg.se',
+          'path' => true
+        ],
+        'kungshult.helsingborg.se' => (object) [
+          'domain' => 'vardochomsorg.helsingborg.se',
+          'path' => '/senior/boende-for-aldre/vardboenden/kungshult/'
+        ],
+        'oceanhamnenwbd.se' => (object) [
+          'domain' => 'hplus.helsingborg.se',
+          'path' => '/etapper/oceanhamnen/kontorslokaler-i-oceanhamnen/'
+        ],
+        'omsorgsjobb.helsingborg.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/jobb/'
+        ],
+        'planteringarutangranser.helsingborg.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/uppleva-och-gora/stadsodling/'
+        ],
+        'trumslagaren.helsingborg.se' => (object) [
+          'domain' => 'vardochomsorg.helsingborg.se',
+          'path' => '/funktionsnedsattning/daglig-verksamhet/trumslagaren/'
+        ],
+        'abradden.helsingborg.se' => (object) [
+          'domain' => 'vardochomsorg.helsingborg.se',
+          'path' => '/senior/boende-for-aldre/vardboenden/abradden/'
+        ],
+        'action.helsingborg.se' => (object) [
+          'domain' => 'foretagare.helsingborg.se',
+          'path' => true
         ]
       ];
     }
