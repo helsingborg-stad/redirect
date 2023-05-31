@@ -14,10 +14,27 @@ Class Redirect {
 
     /**
      * @var array $map An associative array mapping old domains to new domains.
+     * Init with function getMap(); 
+     * 
      */
-    private $map = array(
-      'visit.helsingborg.se' => 'visithelsingborg.com'
-    );
+    private $map = null;
+
+    /**
+     * @return array $map An associative array mapping old domains to new domains.
+     * 
+     * Path options: 
+     *  string  New path to redirect to.
+     *  true    Use current path requested. 
+     *  false   Do not add any path
+     */
+    private function getMap() {
+      return [
+        'visit.helsingborg.se' => (object) [
+          'domain' => 'visithelsingborg.com',
+          'path' => true
+        ]
+      ];
+    }
 
     /**
      * Redirect constructor.
@@ -28,18 +45,23 @@ Class Redirect {
      */
     public function __construct() {
 
+      $this->map      = $this->getMap(); //Must run first
+
       $currentDomain  = $this->getCurrentDomain();
       $newDomain      = $this->getNewDomain($currentDomain);
-      $currentPath    = $this->getCurrentPath();
+      $newPath        = $this->getNewPath($currentDomain);
     
       if($newDomain) {
         $this->makeRedirect(
           $newDomain,
-          $currentPath
+          $newPath
         );
       }
 
-      $this->makeRedirect($this->notFoundDomain, $currentPath);
+      $this->makeRedirect(
+        $this->notFoundDomain,
+        $newPath
+      );
     }
 
     /**
@@ -59,9 +81,25 @@ Class Redirect {
      */
     private function getNewDomain($domain) {
       if(array_key_exists($domain, $this->map)) {
-        return $this->map[$domain];
+        return $this->map[$domain]->domain;
       }
       return false;
+    }
+
+    private function getNewPath($domain) {
+      if(array_key_exists($domain, $this->map)) {
+        
+        $path = $this->map[$domain]->path;
+
+        if(is_string($path)) {
+          return $this->map[$domain]->path;
+        }
+
+        if(is_bool($path) && $path === true) {
+          return $this->getCurrentPath(); 
+        }
+      }
+      return "";
     }
 
     /**
