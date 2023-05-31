@@ -35,11 +35,15 @@ Class Redirect {
         ],
         'chefsintro.helsingborg.se' => (object) [
           'domain' => 'hbglearns.helsingborg.se',
-          'path' => '/learn/course/internal/view/elearning/94/stadsgemensam-chefsintroduktion '
+          'path' => '/learn/course/internal/view/elearning/94/stadsgemensam-chefsintroduktion'
         ],
         'hrintro.helsingborg.se' => (object) [
           'domain' => 'hbglearns.helsingborg.se',
           'path' => '/learn/course/internal/view/elearning/62/stadsgemensam-hr-introduktion'
+        ],
+        'intro.helsingborg.se' => (object) [
+          'domain' => 'rise.articulate.com',
+          'path' => '/share/hPxfaArDJXRz45E8ShrOeVs_6Gos5v-8#/'
         ],
         'ssa2021.helsingborg.se' => (object) [
           'domain' => 'ssa.helsingborg.se',
