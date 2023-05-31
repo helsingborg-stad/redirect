@@ -32,7 +32,15 @@ Class Redirect {
         'visit.helsingborg.se' => (object) [
           'domain' => 'visithelsingborg.com',
           'path' => true
-        ]
+        ],
+        'chefsintro.helsingborg.se' => (object) [
+          'domain' => 'hbglearns.helsingborg.se',
+          'path' => 'learn/course/internal/view/elearning/94/stadsgemensam-chefsintroduktion '
+        ],
+        'hrintro.helsingborg.se' => (object) [
+          'domain' => 'hbglearns.helsingborg.se',
+          'path' => '/learn/course/internal/view/elearning/62/stadsgemensam-hr-introduktion'
+        ],
       ];
     }
 
