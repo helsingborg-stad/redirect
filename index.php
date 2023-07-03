@@ -96,6 +96,14 @@ Class Redirect {
         'action.helsingborg.se' => (object) [
           'domain' => 'foretagare.helsingborg.se',
           'path' => true
+        ],
+        'v2.styleguide.helsingborg.se' => (object) [
+          'domain' => 'styleguide.getmunicipio.com',
+          'path' => true
+        ],
+        'styleguide.helsingborg.se' => (object) [
+          'domain' => 'styleguide.getmunicipio.com',
+          'path' => true
         ]
       ];
     }
