@@ -104,6 +104,10 @@ Class Redirect {
         'styleguide.helsingborg.se' => (object) [
           'domain' => 'styleguide.getmunicipio.com',
           'path' => true
+        ],
+        'helsingborg2035.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/kommun-och-politik/helsingborg-2035/'
         ]
       ];
     }
