@@ -108,6 +108,10 @@ Class Redirect {
         'helsingborg2035.se' => (object) [
           'domain' => 'helsingborg.se',
           'path' => '/kommun-och-politik/helsingborg-2035/'
+        ],
+        'blifamiljehem.familjenhelsingborg.se' => (object) [
+          'domain' => 'familjenhelsingborg.se',
+          'path' => false
         ]
       ];
     }
