@@ -170,6 +170,12 @@ Class Redirect {
       return false;
     }
 
+    /**
+    * Get the new path for a given domain from the map.
+    *
+    * @param string $domain The domain for which to retrieve the new path.
+    * @return string The new path if found, or an empty string if not found.
+    */
     private function getNewPath($domain) {
       if(array_key_exists($domain, $this->map)) {
         
