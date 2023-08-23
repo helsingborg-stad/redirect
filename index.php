@@ -112,6 +112,10 @@ Class Redirect {
         'blifamiljehem.familjenhelsingborg.se' => (object) [
           'domain' => 'familjenhelsingborg.se',
           'path' => false
+        ],
+        'skoljobb.helsingborg.se' => (object) [
+          'domain' => 'helsingborg.vikariebanken.se',
+          'path' => false
         ]
       ];
     }
