@@ -124,6 +124,18 @@ Class Redirect {
         'bug.getmunicipio.com' => (object) [
           'domain' => 'forms.clickup.com',
           'path' => '/2619042/f/2fxn2-596/OLQ2ARKQIK3NFPYQ61'
+        ],
+        'fredriksdalsteatern.nu' => (object) [
+          'domain' => 'fredriksdal.se',
+          'path' => '/om-fredriksdal/fredriksdalsteatern/'
+        ],
+        'fredriksdalsteatern.se' => (object) [
+          'domain' => 'fredriksdal.se',
+          'path' => '/om-fredriksdal/fredriksdalsteatern/'
+        ],
+        'fredriksdalsteatern.com' => (object) [
+          'domain' => 'fredriksdal.se',
+          'path' => '/om-fredriksdal/fredriksdalsteatern/'
         ]
       ];
     }
