@@ -120,6 +120,10 @@ Class Redirect {
         'passagefestival.helsingborg.se' => (object) [
           'domain' => 'passagefestival.nu',
           'path' => '/en/'
+        ],
+        'bug.getmunicipio.com' => (object) [
+          'domain' => 'forms.clickup.com',
+          'path' => '/2619042/f/2fxn2-596/OLQ2ARKQIK3NFPYQ61'
         ]
       ];
     }
