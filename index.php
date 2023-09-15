@@ -126,17 +126,25 @@ Class Redirect {
           'path' => '/2619042/f/2fxn2-596/OLQ2ARKQIK3NFPYQ61'
         ],
         'fredriksdalsteatern.nu' => (object) [
-          'domain' => 'fredriksdal.se',
-          'path' => '/om-fredriksdal/fredriksdalsteatern/'
+          'domain' => 'anagram.se',
+          'path' => '/live/anagram-live-pa-fredriksdalsteatern/'
         ],
         'fredriksdalsteatern.se' => (object) [
-          'domain' => 'fredriksdal.se',
-          'path' => '/om-fredriksdal/fredriksdalsteatern/'
+          'domain' => 'anagram.se',
+          'path' => '/live/anagram-live-pa-fredriksdalsteatern/'
         ],
         'fredriksdalsteatern.com' => (object) [
-          'domain' => 'fredriksdal.se',
-          'path' => '/om-fredriksdal/fredriksdalsteatern/'
-        ]
+          'domain' => 'anagram.se',
+          'path' => '/live/anagram-live-pa-fredriksdalsteatern/'
+        ],
+        'visit.familjenhelsingborg.se' => (object) [
+          'domain' => 'visitfamiljenhelsingborg.com',
+          'path' => true
+        ],
+        'visitfamiljenhelsingborg.se' => (object) [
+          'domain' => 'visitfamiljenhelsingborg.com',
+          'path' => true
+        ],
       ];
     }
 
