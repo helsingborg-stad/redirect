@@ -145,6 +145,10 @@ Class Redirect {
           'domain' => 'visitfamiljenhelsingborg.com',
           'path' => true
         ],
+        'kärnan.se' => (object) [
+          'domain' => 'karnan.se',
+          'path' => true
+        ],
       ];
     }
 
