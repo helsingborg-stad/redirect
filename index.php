@@ -149,6 +149,10 @@ Class Redirect {
           'domain' => 'karnan.se',
           'path' => true
         ],
+        'oppna.helsingborg.se' => (object) [
+          'domain' => 'helsingborg.io',
+          'path' => true
+        ]
       ];
     }
 
