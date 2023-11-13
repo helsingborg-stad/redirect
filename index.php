@@ -114,8 +114,8 @@ Class Redirect {
           'path' => false
         ],
         'skoljobb.helsingborg.se' => (object) [
-          'domain' => 'helsingborg.vikariebanken.se',
-          'path' => false
+          'domain' => 'helsingborg.se',
+          'path' => '/skoljobb'
         ],
         'passagefestival.helsingborg.se' => (object) [
           'domain' => 'passagefestival.nu',
