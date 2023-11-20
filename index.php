@@ -448,6 +448,138 @@ Class Redirect {
         'attekullaforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
           'path' => '/forskolor/attekulla-forskola/'
+        ],
+        'allerumsskola.helsingborg.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/grundskolor/allerums-skola/'
+        ],
+        'anneroskolan.helsingborg.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/grundskolor/anneroskolan/'
+        ],
+        'borgmastarskolan.helsingborg.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/grundskolor/borgmastarskolan-anpassad-skola/'
+        ],
+        'brunnsparksskolan.helsingborg.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/grundskolor/brunnsparksskolan/'
+        ],
+        'barslovsskola.helsingborg.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/grundskolor/barslovs-skola/'
+        ],
+        'drottninghogsskolan.helsingborg.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/grundskolor/drottninghogsskolan/'
+        ],
+        'gantoftaskola.helsingborg.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/grundskolor/gantofta-skola/'
+        ],
+        'glantanskolan.helsingborg.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/grundskolor/glantanskolan/'
+        ],
+        'gustavslundsskolan.helsingborg.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/grundskolor/gustavslundsskolan/'
+        ],
+        'holstagardsskolan.helsingborg.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/grundskolor/holstagardsskolan/'
+        ],
+        'husensjoskola.helsingborg.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/grundskolor/husensjo-skola/'
+        ],
+        'hogastensskolan.helsingborg.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/grundskolor/hogastensskolan/'
+        ],
+        'kattarpsskola.helsingborg.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/grundskolor/kattarps-skola/'
+        ],
+        'larodsskola.helsingborg.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/grundskolor/larods-skola/'
+        ],
+        'mariaparkskolan.helsingborg.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/grundskolor/maria-parkskolan/'
+        ],
+        'synkopen.helsingborg.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/grundskolor/musikgrundskolan-synkopen/'
+        ],
+        'morarpsskola.helsingborg.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/grundskolor/morarps-skola/'
+        ],
+        'nannypalmkvistskolan.helsingborg.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/grundskolor/nanny-palmkvistskolan/'
+        ],
+        'paarpsskola.helsingborg.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/grundskolor/paarps-skola/'
+        ],
+        'rausplanteringsskola.helsingborg.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/grundskolor/raus-planterings-skola/'
+        ],
+        'ringstorpsskolan.helsingborg.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/grundskolor/ringstorpsskolan/'
+        ],
+        'rydebacksskolan.helsingborg.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/grundskolor/rydebacksskolan/'
+        ],
+        'raasodraskola.helsingborg.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/grundskolor/raa-sodra-skola/'
+        ],
+        'ronnbacksskolan.helsingborg.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/grundskolor/ronnbacksskolan-anpassad-skola/'
+        ],
+        'stjorgensskola.helsingborg.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/grundskolor/st-jorgens-skola/'
+        ],
+        'slottsvangsskolan.helsingborg.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/grundskolor/slottsvangsskolan/'
+        ],
+        'svensgardsskolan.helsingborg.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/grundskolor/svensgardsskolan/'
+        ],
+        'soderskolan.helsingborg.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/grundskolor/soderskolan/'
+        ],
+        'tagaborgsskolan.helsingborg.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/grundskolor/tagaborgsskolan/'
+        ],
+        'vastrabergaskola.helsingborg.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/grundskolor/vastra-berga-skola/'
+        ],
+        'vastraramlosaskola.helsingborg.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/grundskolor/vastra-ramlosa-skola/'
+        ],
+        'wieselgrensskolan.helsingborg.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/grundskolor/wieselgrensskolan/'
+        ],
+        'attekullaskolan.helsingborg.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/grundskolor/attekullaskolan/'
         ]
       ];
     }
