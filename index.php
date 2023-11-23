@@ -580,7 +580,11 @@ Class Redirect {
         'attekullaskolan.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
           'path' => '/grundskolor/attekullaskolan/'
-        ]
+        ],
+        'elinebergsskolan.helsingborg.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/grundskolor/elinebergsskolan/'
+        ],
       ];
     }
 
