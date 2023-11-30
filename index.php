@@ -749,6 +749,42 @@ Class Redirect {
           'domain' => 'hbgarena.se',
           'path' => true
         ],
+        'helsingborg.eu' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => true
+        ],
+        'helsingborgsstad.eu' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => true
+        ],
+        'helsingborgsstad.info' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => true
+        ],
+        'helsingborgsstad.net' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => true
+        ],
+        'helsingborgsstad.nu' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => true
+        ],
+        'helsingborgsstad.org' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => true
+        ],
+        'helsingborgsstudent.se' => (object) [
+          'domain' => 'studentstadenhelsingborg.se',
+          'path' => true
+        ],
+        'helsingborgsstad.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => true
+        ],
+        'helsingborgstad.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => true
+        ],
       ];
     }
 
