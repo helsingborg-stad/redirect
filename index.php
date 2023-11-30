@@ -597,6 +597,66 @@ Class Redirect {
           'domain' => 'helsingborg.se',
           'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/barslov/'
         ],
+        'bårslov.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/barslov/'
+        ],
+        'borgmastarskolan.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/grundskolor/borgmastarskolan-anpassad-skola/'
+        ],
+        'borgmästarskolan.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/grundskolor/borgmastarskolan-anpassad-skola/'
+        ],
+        'brunnsparken.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/uppleva-och-gora/friluftsliv-och-motion/parker-och-gronomrade/ramlosa-brunnspark/'
+        ],
+        'dalhem.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/drottninghog-fredriksdal-dalhem/'
+        ],
+        'domsten.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/larod-hittarp-domsten/'
+        ],
+        'drottningh.com' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/drottninghog-fredriksdal-dalhem/'
+        ],
+        'drottninghög.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/drottninghog-fredriksdal-dalhem/'
+        ],
+        'drottninghog.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/drottninghog-fredriksdal-dalhem/'
+        ],
+        'dunkers.se' => (object) [
+          'domain' => 'dunkerskulturhus.se',
+          'path' => true
+        ],
+        'dunkerskulturhus.com' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => true
+        ],
+        'elineberg.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/elineberg/'
+        ],
+        'eneborg.se' => (object) [
+          'domain' => 'dunkerskulturhus.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/soder-eneborg-hogaborg/'
+        ],
+        'eskilsminne.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/eskilsminne-och-gustavslund/'
+        ],
+        'faltabacken.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/trafik-och-stadsplanering/planering-och-utveckling/natur-och-kultur/bevarandeprogram/faltabacken/'
+        ],
       ];
     }
 
