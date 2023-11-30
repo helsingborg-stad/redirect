@@ -585,6 +585,18 @@ Class Redirect {
           'domain' => 'helsingborg.se',
           'path' => '/grundskolor/elinebergsskolan/'
         ],
+        'allerum.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/odakra-fleninge-allerum-och-hjalmshult/'
+        ],
+        'attekulla.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/attekulla/'
+        ],
+        'barslov.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/barslov/'
+        ],
       ];
     }
 
