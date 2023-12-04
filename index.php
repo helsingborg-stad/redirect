@@ -905,6 +905,118 @@ Class Redirect {
           'domain' => 'stadslexikon.helsingborg.se',
           'path' => '/ottarp/'
         ],
+        'paarp.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/paarp/'
+        ],
+        'palsjo.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/palsjo-ostra/'
+        ],
+        'pedagoghelsingborg.se' => (object) [
+          'domain' => 'pedagogsajten.familjenhelsingborg.se',
+          'path' => true
+        ],
+        'pedagogsajten.se' => (object) [
+          'domain' => 'pedagogsajten.familjenhelsingborg.se',
+          'path' => true
+        ],
+        'pedagogskanenordvast.se' => (object) [
+          'domain' => 'pedagogsajten.familjenhelsingborg.se',
+          'path' => true
+        ],
+        'pedagogskånenordväst.se' => (object) [
+          'domain' => 'pedagogsajten.familjenhelsingborg.se',
+          'path' => true
+        ],
+        'planteringen.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/planteringen-miatorp/'
+        ],
+        'pålsjö.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/palsjo-ostra/'
+        ],
+        'pålstorp.se' => (object) [
+          'domain' => 'stadslexikon.helsingborg.se',
+          'path' => '/plstorp/'
+        ],
+        'raavallar.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/raa/'
+        ],
+        'rååvallar.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/raa/'
+        ],
+        'ramlosabrunnspark.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/ramlosa/'
+        ],
+        'ramlösabrunnspark.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/ramlosa/'
+        ],
+        'rangvalla.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/adolfsberg-ragnvalla-vastergard/'
+        ],
+        'raus.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/raus-vang-raus-sodra/'
+        ],
+        'ringstorp.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/stattena-och-ringstorp/'
+        ],
+        'ronnbacksskolan.se' => (object) [
+          'domain' => 'ronnbacksskolan.helsingborg.se',
+          'path' => true
+        ],
+        'rönnbäcksskolan.se' => (object) [
+          'domain' => 'ronnbacksskolan.helsingborg.se',
+          'path' => true
+        ],
+        'rosengården.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/rosengarden/'
+        ],
+        'rydeback.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/rydeback/'
+        ],
+        'rydebäck.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/rydeback/'
+        ],
+        'rönnowskaskolan.se' => (object) [
+          'domain' => 'ronnowskaskolan.helsingborg.se',
+          'path' => true
+        ],
+        'senderod.se' => (object) [
+          'domain' => 'stadslexikon.helsingborg.se',
+          'path' => '/senderd/'
+        ],
+        'senderöd.se' => (object) [
+          'domain' => 'stadslexikon.helsingborg.se',
+          'path' => '/senderd/'
+        ],
+        'slottshojden.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/slottshojden-och-olympia/'
+        ],
+        'slottshöjden.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/slottshojden-och-olympia/'
+        ],
+        'stattena.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/stattena-och-ringstorp/'
+        ],
+        'sundstorget.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/uppleva-och-gora/friluftsliv-och-motion/parker-och-gronomrade/sundstorget/'
+        ],
       ];
     }
 
