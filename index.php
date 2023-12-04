@@ -751,11 +751,11 @@ Class Redirect {
         ],
         'hbgvaxer.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => true
+          'path' => '/trafik-och-stadsplanering/stadsutvecklingsprojekt/'
         ],
-        'hbgväxer.se' => (object) [
+        'xn--hbgvxer-8wa.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => true
+          'path' => '/trafik-och-stadsplanering/stadsutvecklingsprojekt/'
         ],
         'helsingborg-arena.se' => (object) [
           'domain' => 'hbgarena.se',
@@ -797,11 +797,27 @@ Class Redirect {
           'domain' => 'helsingborg.se',
           'path' => true
         ],
+        'helsingborgtown.com' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => true
+        ],
+        'henrydunkersplats.se' => (object) [
+          'domain' => 'stadslexikon.helsingborg.se',
+          'path' => '/henry-dunkers-plats/'
+        ],
+        'hhtunneln.nu' => (object) [
+          'domain' => 'hh-gruppen.org',
+          'path' => true
+        ],
+        'hhtunneln.se' => (object) [
+          'domain' => 'hh-gruppen.org',
+          'path' => true
+        ],
         'hogaborg.se' => (object) [
           'domain' => 'helsingborg.se',
           'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/soder-eneborg-hogaborg/'
         ],
-        'högaborg.se' => (object) [
+        'xn--hgaborg-90a.se' => (object) [
           'domain' => 'helsingborg.se',
           'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/soder-eneborg-hogaborg/'
         ],
@@ -809,19 +825,23 @@ Class Redirect {
           'domain' => 'stadslexikon.helsingborg.se',
           'path' => '/hgasten/'
         ],
+        'xn--hgastan-90a.se' => (object) [
+          'domain' => 'stadslexikon.helsingborg.se',
+          'path' => '/hgasten/'
+        ],
         'husensjo.se' => (object) [
           'domain' => 'helsingborg.se',
           'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/wilson-park-husensjo-och-sofieberg/'
         ],
-        'husensjö.se' => (object) [
+        'xn--husensj-g1a.se' => (object) [
           'domain' => 'helsingborg.se',
           'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/wilson-park-husensjo-och-sofieberg/'
         ],
-        'hälsingborg.se' => (object) [
+        'xn--hlsingborg-q5a.se' => (object) [
           'domain' => 'helsingborg.se',
           'path' => true
         ],
-        'hässlunda.se' => (object) [
+        'xn--hsslunda-0za.se' => (object) [
           'domain' => 'stadslexikon.helsingborg.se',
           'path' => '/hsslunda/'
         ],
@@ -833,6 +853,14 @@ Class Redirect {
           'domain' => 'helsingborg.se',
           'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/kattarp-och-hasslarp/'
         ],
+        'knahaken.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/uppleva-och-gora/friluftsliv-och-motion/badplatser-och-strander/badplatser-i-helsingborg/knahakenbadet/'
+        ],
+        'xn--knhaken-6wa.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/uppleva-och-gora/friluftsliv-och-motion/badplatser-och-strander/badplatser-i-helsingborg/knahakenbadet/'
+        ],
         'kropp.se' => (object) [
           'domain' => 'stadslexikon.helsingborg.se',
           'path' => '/kropp/'
@@ -841,11 +869,15 @@ Class Redirect {
           'domain' => 'stadslexikon.helsingborg.se',
           'path' => '/kvistofta/'
         ],
+        'larlingsgymnasium.se' => (object) [
+          'domain' => 'larlingsgymnasium.helsingborg.se',
+          'path' => true
+        ],
         'larod.se' => (object) [
           'domain' => 'helsingborg.se',
           'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/larod-hittarp-domsten/'
         ],
-        'laröd.se' => (object) [
+        'xn--lard-7qa.se' => (object) [
           'domain' => 'helsingborg.se',
           'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/larod-hittarp-domsten/'
         ],
@@ -853,7 +885,7 @@ Class Redirect {
           'domain' => 'stadslexikon.helsingborg.se',
           'path' => '/lussebcken/'
         ],
-        'lussebäcken.se' => (object) [
+        'xn--lussebcken-v5a.se' => (object) [
           'domain' => 'stadslexikon.helsingborg.se',
           'path' => '/lussebcken/'
         ],
@@ -877,7 +909,7 @@ Class Redirect {
           'domain' => 'helsingborg.se',
           'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/morarp/'
         ],
-        'mörarp.se' => (object) [
+        'xn--mrarp-jua.se' => (object) [
           'domain' => 'helsingborg.se',
           'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/morarp/'
         ],
@@ -889,7 +921,7 @@ Class Redirect {
           'domain' => 'helsingborg.se',
           'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/narlunda/'
         ],
-        'närlunda.se' => (object) [
+        'xn--nrlunda-5wa.se' => (object) [
           'domain' => 'helsingborg.se',
           'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/narlunda/'
         ],
