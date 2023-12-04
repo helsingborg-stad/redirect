@@ -829,6 +829,82 @@ Class Redirect {
           'domain' => 'stadslexikon.helsingborg.se',
           'path' => '/kvistofta/'
         ],
+        'larod.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/larod-hittarp-domsten/'
+        ],
+        'laröd.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/larod-hittarp-domsten/'
+        ],
+        'lussebacken.se' => (object) [
+          'domain' => 'stadslexikon.helsingborg.se',
+          'path' => '/lussebcken/'
+        ],
+        'lussebäcken.se' => (object) [
+          'domain' => 'stadslexikon.helsingborg.se',
+          'path' => '/lussebcken/'
+        ],
+        'margaretaplatsen.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/uppleva-och-gora/friluftsliv-och-motion/parker-och-gronomrade/margaretaplatsen/'
+        ],
+        'mariapark.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/mariastaden/'
+        ],
+        'mariastaden.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/mariastaden/'
+        ],
+        'miatorp.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/planteringen-miatorp/'
+        ],
+        'morarp.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/morarp/'
+        ],
+        'mörarp.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/morarp/'
+        ],
+        'municipio.nu' => (object) [
+          'domain' => 'municipio.se',
+          'path' => true
+        ],
+        'narlunda.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/narlunda/'
+        ],
+        'närlunda.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/narlunda/'
+        ],
+        'odakra.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/odakra-fleninge-allerum-och-hjalmshult/'
+        ],
+        'ödåkra.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/odakra-fleninge-allerum-och-hjalmshult/'
+        ],
+        'olympiapark.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/slottshojden-och-olympia/'
+        ],
+        'olympiaskolan.se' => (object) [
+          'domain' => 'olympiaskolan.helsingborg.se',
+          'path' => true
+        ],
+        'oresundsparken.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/uppleva-och-gora/friluftsliv-och-motion/parker-och-gronomrade/oresundsparken/'
+        ],
+        'ottarp.se' => (object) [
+          'domain' => 'stadslexikon.helsingborg.se',
+          'path' => '/ottarp/'
+        ],
       ];
     }
 
