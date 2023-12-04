@@ -593,11 +593,15 @@ Class Redirect {
           'domain' => 'helsingborg.se',
           'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/attekulla/'
         ],
+        'ättekulla.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/attekulla/'
+        ],
         'barslov.se' => (object) [
           'domain' => 'helsingborg.se',
           'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/barslov/'
         ],
-        'bårslov.se' => (object) [
+        'bårslöv.se' => (object) [
           'domain' => 'helsingborg.se',
           'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/barslov/'
         ],
@@ -1016,6 +1020,82 @@ Class Redirect {
         'sundstorget.se' => (object) [
           'domain' => 'helsingborg.se',
           'path' => '/uppleva-och-gora/friluftsliv-och-motion/parker-och-gronomrade/sundstorget/'
+        ],
+        'tagaborg.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/tagaborg/'
+        ],
+        'tågaborg.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/tagaborg/'
+        ],
+        'tychobraheskolan.net' => (object) [
+          'domain' => 'tychobraheskolan.helsingborg.se',
+          'path' => true
+        ],
+        'tychobraheskolan.org' => (object) [
+          'domain' => 'tychobraheskolan.helsingborg.se',
+          'path' => true
+        ],
+        'tychobraheskolan.se' => (object) [
+          'domain' => 'tychobraheskolan.helsingborg.se',
+          'path' => true
+        ],
+        'utvalinge.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/rogle-tanga-utvalinge/'
+        ],
+        'utvälinge.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/rogle-tanga-utvalinge/'
+        ],
+        'vallakra.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/gantofta-och-vallakra/'
+        ],
+        'vallåkra.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/gantofta-och-vallakra/'
+        ],
+        'valluv.se' => (object) [
+          'domain' => 'stadslexikon.helsingborg.se',
+          'path' => '/vlluv/'
+        ],
+        'välluv.se' => (object) [
+          'domain' => 'stadslexikon.helsingborg.se',
+          'path' => '/vlluv/'
+        ],
+        'vasatorp.se' => (object) [
+          'domain' => 'stadslexikon.helsingborg.se',
+          'path' => '/vasatorp/'
+        ],
+        'vikingsberg.se' => (object) [
+          'domain' => 'stadslexikon.helsingborg.se',
+          'path' => '/vikingsberg-2/'
+        ],
+        'visithelsingborg.eu' => (object) [
+          'domain' => 'visithelsingborg.com',
+          'path' => true
+        ],
+        'wilsonpark.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/wilson-park-husensjo-och-sofieberg/'
+        ],
+        'öresundsparken.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/uppleva-och-gora/friluftsliv-och-motion/parker-och-gronomrade/oresundsparken/'
+        ],
+        'öppnasoc.se' => (object) [
+          'domain' => 'oppnasoc.helsingborg.se',
+          'path' => true
+        ],
+        'öppnasoc.com' => (object) [
+          'domain' => 'oppnasoc.helsingborg.se',
+          'path' => true
+        ],
+        'oppnasoc.se' => (object) [
+          'domain' => 'oppnasoc.helsingborg.se',
+          'path' => true
         ],
       ];
     }
