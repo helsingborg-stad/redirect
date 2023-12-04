@@ -785,6 +785,50 @@ Class Redirect {
           'domain' => 'helsingborg.se',
           'path' => true
         ],
+        'hogaborg.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/soder-eneborg-hogaborg/'
+        ],
+        'högaborg.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/soder-eneborg-hogaborg/'
+        ],
+        'hogasten.se' => (object) [
+          'domain' => 'stadslexikon.helsingborg.se',
+          'path' => '/hgasten/'
+        ],
+        'husensjo.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/wilson-park-husensjo-och-sofieberg/'
+        ],
+        'husensjö.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/wilson-park-husensjo-och-sofieberg/'
+        ],
+        'hälsingborg.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => true
+        ],
+        'hässlunda.se' => (object) [
+          'domain' => 'stadslexikon.helsingborg.se',
+          'path' => '/hsslunda/'
+        ],
+        'jordbodalen.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/uppleva-och-gora/friluftsliv-och-motion/naturomrade/jordbodalen/'
+        ],
+        'kattarp.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/kattarp-och-hasslarp/'
+        ],
+        'kropp.se' => (object) [
+          'domain' => 'stadslexikon.helsingborg.se',
+          'path' => '/kropp/'
+        ],
+        'kvistofta.se' => (object) [
+          'domain' => 'stadslexikon.helsingborg.se',
+          'path' => '/kvistofta/'
+        ],
       ];
     }
 
