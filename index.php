@@ -633,7 +633,7 @@ Class Redirect {
           'domain' => 'helsingborg.se',
           'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/drottninghog-fredriksdal-dalhem/'
         ],
-        'drottninghög.se' => (object) [
+        'xn--drottninghg-0fb.se' => (object) [
           'domain' => 'helsingborg.se',
           'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/drottninghog-fredriksdal-dalhem/'
         ],
@@ -646,7 +646,7 @@ Class Redirect {
           'path' => true
         ],
         'dunkerskulturhus.com' => (object) [
-          'domain' => 'helsingborg.se',
+          'domain' => 'dunkerskulturhus.se',
           'path' => true
         ],
         'elineberg.se' => (object) [
@@ -654,7 +654,7 @@ Class Redirect {
           'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/elineberg/'
         ],
         'eneborg.se' => (object) [
-          'domain' => 'dunkerskulturhus.se',
+          'domain' => 'helsingborg.se',
           'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/soder-eneborg-hogaborg/'
         ],
         'eskilsminne.se' => (object) [
@@ -677,7 +677,7 @@ Class Redirect {
           'domain' => 'helsingborg.se',
           'path' => '/trafik-och-stadsplanering/planering-och-utveckling/natur-och-kultur/naturreservat/befintliga-naturreservat/fjarestad-gantofta/'
         ],
-        'fjärestad.se' => (object) [
+        'xn--fjrestad-1za.se' => (object) [
           'domain' => 'helsingborg.se',
           'path' => '/trafik-och-stadsplanering/planering-och-utveckling/natur-och-kultur/naturreservat/befintliga-naturreservat/fjarestad-gantofta/'
         ],
@@ -686,14 +686,14 @@ Class Redirect {
           'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/odakra-fleninge-allerum-och-hjalmshult/'
         ],
         'frillestad.se' => (object) [
-          'domain' => 'stadslexikon.helsingborg.se/frillestad/',
-          'path' => true
+          'domain' => 'stadslexikon.helsingborg.se',
+          'path' => '/frillestad/'
         ],
         'fleninge.se' => (object) [
           'domain' => 'helsingborg.se',
           'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/odakra-fleninge-allerum-och-hjalmshult/'
         ],
-        'fältabacken.se' => (object) [
+        'xn--fltabacken-q5a.se' => (object) [
           'domain' => 'helsingborg.se',
           'path' => '/trafik-och-stadsplanering/planering-och-utveckling/natur-och-kultur/bevarandeprogram/faltabacken/'
         ],
@@ -717,7 +717,7 @@ Class Redirect {
           'domain' => 'helsingborg.se',
           'path' => '/uppleva-och-gora/friluftsliv-och-motion/parker-och-gronomrade/groningen/'
         ],
-        'gröningen.se' => (object) [
+        'xn--grningen-o4a.se' => (object) [
           'domain' => 'helsingborg.se',
           'path' => '/uppleva-och-gora/friluftsliv-och-motion/parker-och-gronomrade/groningen/'
         ],
@@ -729,11 +729,7 @@ Class Redirect {
           'domain' => 'helsingborg.se',
           'path' => '/forskola-och-utbildning/gymnasium/ansokan-och-antagning/'
         ],
-        'gymnasieansökan.se' => (object) [
-          'domain' => 'helsingborg.se',
-          'path' => '/forskola-och-utbildning/gymnasium/ansokan-och-antagning/'
-        ],
-        'gymnasieansökan.se' => (object) [
+        'xn--gymnasieanskan-5pb.se' => (object) [
           'domain' => 'helsingborg.se',
           'path' => '/forskola-och-utbildning/gymnasium/ansokan-och-antagning/'
         ],
@@ -746,10 +742,18 @@ Class Redirect {
           'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/kattarp-och-hasslarp/'
         ],
         'hasslunda.se' => (object) [
-          'domain' => 'media.helsingborg.se',
-          'path' => '/uploads/networks/1/2015/05/hasslunda-natur-och-kultur-2018-sbf.pdf'
+          'domain' => 'stadslexikon.helsingborg.se',
+          'path' => '/hsslunda/'
         ],
         'hbgnet.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => true
+        ],
+        'hbgvaxer.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => true
+        ],
+        'hbgväxer.se' => (object) [
           'domain' => 'helsingborg.se',
           'path' => true
         ],
