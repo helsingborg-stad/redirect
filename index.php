@@ -601,9 +601,13 @@ Class Redirect {
           'domain' => 'helsingborg.se',
           'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/barslov/'
         ],
-        'bårslöv.se' => (object) [
+        'xn--brslv-mra6j.se' => (object) [
           'domain' => 'helsingborg.se',
           'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/barslov/'
+        ],
+        'bibliotekfamiljenhelsingborg.se' => (object) [
+          'domain' => 'bibliotekfh.se',
+          'path' => true
         ],
         'borgmastarskolan.se' => (object) [
           'domain' => 'helsingborg.se',
