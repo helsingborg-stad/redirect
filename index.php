@@ -145,7 +145,7 @@ Class Redirect {
           'domain' => 'visitfamiljenhelsingborg.com',
           'path' => true
         ],
-        'kärnan.se' => (object) [
+        'xn--krnan-gra.se' => (object) [
           'domain' => 'karnan.se',
           'path' => true
         ],
@@ -593,7 +593,7 @@ Class Redirect {
           'domain' => 'helsingborg.se',
           'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/attekulla/'
         ],
-        'ättekulla.se' => (object) [
+        'xn--ttekulla-zza.se' => (object) [
           'domain' => 'helsingborg.se',
           'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/attekulla/'
         ],
@@ -613,7 +613,7 @@ Class Redirect {
           'domain' => 'helsingborg.se',
           'path' => '/grundskolor/borgmastarskolan-anpassad-skola/'
         ],
-        'borgmästarskolan.se' => (object) [
+        'xn--borgmstarskolan-4kb.se' => (object) [
           'domain' => 'helsingborg.se',
           'path' => '/grundskolor/borgmastarskolan-anpassad-skola/'
         ],
@@ -825,7 +825,7 @@ Class Redirect {
           'domain' => 'stadslexikon.helsingborg.se',
           'path' => '/hgasten/'
         ],
-        'xn--hgastan-90a.se' => (object) [
+        'xn--hgasten-90a.se' => (object) [
           'domain' => 'stadslexikon.helsingborg.se',
           'path' => '/hgasten/'
         ],
@@ -929,7 +929,7 @@ Class Redirect {
           'domain' => 'helsingborg.se',
           'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/odakra-fleninge-allerum-och-hjalmshult/'
         ],
-        'ödåkra.se' => (object) [
+        'xn--dkra-qoa4h.se' => (object) [
           'domain' => 'helsingborg.se',
           'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/odakra-fleninge-allerum-och-hjalmshult/'
         ],
@@ -944,6 +944,22 @@ Class Redirect {
         'oresundsparken.se' => (object) [
           'domain' => 'helsingborg.se',
           'path' => '/uppleva-och-gora/friluftsliv-och-motion/parker-och-gronomrade/oresundsparken/'
+        ],
+        'omsorghelsingborg.com' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/omsorg-och-stod/'
+        ],
+        'omsorghelsingborg.nu' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/omsorg-och-stod/'
+        ],
+        'omsorghelsingborg.se' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/omsorg-och-stod/'
+        ],
+        'omsorgihelsingborg.com' => (object) [
+          'domain' => 'helsingborg.se',
+          'path' => '/omsorg-och-stod/'
         ],
         'ottarp.se' => (object) [
           'domain' => 'stadslexikon.helsingborg.se',
@@ -969,7 +985,7 @@ Class Redirect {
           'domain' => 'pedagogsajten.familjenhelsingborg.se',
           'path' => true
         ],
-        'pedagogskånenordväst.se' => (object) [
+        'xn--pedagogsknenordvst-0tbm.se' => (object) [
           'domain' => 'pedagogsajten.familjenhelsingborg.se',
           'path' => true
         ],
@@ -977,11 +993,11 @@ Class Redirect {
           'domain' => 'helsingborg.se',
           'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/planteringen-miatorp/'
         ],
-        'pålsjö.se' => (object) [
+        'xn--plsj-qoa9h.se' => (object) [
           'domain' => 'helsingborg.se',
           'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/palsjo-ostra/'
         ],
-        'pålstorp.se' => (object) [
+        'xn--plstorp-exa.se' => (object) [
           'domain' => 'stadslexikon.helsingborg.se',
           'path' => '/plstorp/'
         ],
@@ -989,7 +1005,7 @@ Class Redirect {
           'domain' => 'helsingborg.se',
           'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/raa/'
         ],
-        'rååvallar.se' => (object) [
+        'xn--rvallar-exaa.se' => (object) [
           'domain' => 'helsingborg.se',
           'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/raa/'
         ],
@@ -997,7 +1013,7 @@ Class Redirect {
           'domain' => 'helsingborg.se',
           'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/ramlosa/'
         ],
-        'ramlösabrunnspark.se' => (object) [
+        'xn--ramlsabrunnspark-pwb.se' => (object) [
           'domain' => 'helsingborg.se',
           'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/ramlosa/'
         ],
@@ -1017,11 +1033,11 @@ Class Redirect {
           'domain' => 'ronnbacksskolan.helsingborg.se',
           'path' => true
         ],
-        'rönnbäcksskolan.se' => (object) [
+        'xn--rnnbcksskolan-efb0y.se' => (object) [
           'domain' => 'ronnbacksskolan.helsingborg.se',
           'path' => true
         ],
-        'rosengården.se' => (object) [
+        'xn--rosengrden-65a.se' => (object) [
           'domain' => 'helsingborg.se',
           'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/rosengarden/'
         ],
@@ -1029,11 +1045,11 @@ Class Redirect {
           'domain' => 'helsingborg.se',
           'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/rydeback/'
         ],
-        'rydebäck.se' => (object) [
+        'xn--rydebck-9wa.se' => (object) [
           'domain' => 'helsingborg.se',
           'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/rydeback/'
         ],
-        'rönnowskaskolan.se' => (object) [
+        'xn--rnnowskaskolan-vpb.se' => (object) [
           'domain' => 'ronnowskaskolan.helsingborg.se',
           'path' => true
         ],
@@ -1041,7 +1057,7 @@ Class Redirect {
           'domain' => 'stadslexikon.helsingborg.se',
           'path' => '/senderd/'
         ],
-        'senderöd.se' => (object) [
+        'xn--senderd-f1a.se' => (object) [
           'domain' => 'stadslexikon.helsingborg.se',
           'path' => '/senderd/'
         ],
@@ -1049,7 +1065,7 @@ Class Redirect {
           'domain' => 'helsingborg.se',
           'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/slottshojden-och-olympia/'
         ],
-        'slottshöjden.se' => (object) [
+        'xn--slottshjden-xfb.se' => (object) [
           'domain' => 'helsingborg.se',
           'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/slottshojden-och-olympia/'
         ],
@@ -1065,7 +1081,7 @@ Class Redirect {
           'domain' => 'helsingborg.se',
           'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/tagaborg/'
         ],
-        'tågaborg.se' => (object) [
+        'xn--tgaborg-exa.se' => (object) [
           'domain' => 'helsingborg.se',
           'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/tagaborg/'
         ],
@@ -1085,7 +1101,7 @@ Class Redirect {
           'domain' => 'helsingborg.se',
           'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/rogle-tanga-utvalinge/'
         ],
-        'utvälinge.se' => (object) [
+        'xn--utvlinge-2za.se' => (object) [
           'domain' => 'helsingborg.se',
           'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/rogle-tanga-utvalinge/'
         ],
@@ -1093,7 +1109,7 @@ Class Redirect {
           'domain' => 'helsingborg.se',
           'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/gantofta-och-vallakra/'
         ],
-        'vallåkra.se' => (object) [
+        'xn--vallkra-hxa.se' => (object) [
           'domain' => 'helsingborg.se',
           'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/gantofta-och-vallakra/'
         ],
@@ -1101,7 +1117,7 @@ Class Redirect {
           'domain' => 'stadslexikon.helsingborg.se',
           'path' => '/vlluv/'
         ],
-        'välluv.se' => (object) [
+        'xn--vlluv-gra.se' => (object) [
           'domain' => 'stadslexikon.helsingborg.se',
           'path' => '/vlluv/'
         ],
@@ -1121,15 +1137,15 @@ Class Redirect {
           'domain' => 'helsingborg.se',
           'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/wilson-park-husensjo-och-sofieberg/'
         ],
-        'öresundsparken.se' => (object) [
+        'xn--resundsparken-hmb.se' => (object) [
           'domain' => 'helsingborg.se',
           'path' => '/uppleva-och-gora/friluftsliv-och-motion/parker-och-gronomrade/oresundsparken/'
         ],
-        'öppnasoc.se' => (object) [
+        'xn--ppnasoc-80a.se' => (object) [
           'domain' => 'oppnasoc.helsingborg.se',
           'path' => true
         ],
-        'öppnasoc.com' => (object) [
+        'xn--ppnasoc-80a.com' => (object) [
           'domain' => 'oppnasoc.helsingborg.se',
           'path' => true
         ],
