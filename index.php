@@ -957,7 +957,7 @@ Class Redirect {
           'domain' => 'helsingborg.se',
           'path' => '/omsorg-och-stod/'
         ],
-        'omsorgihelsingborg.com' => (object) [
+        'omsorgihelsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
           'path' => '/omsorg-och-stod/'
         ],
@@ -1151,6 +1151,71 @@ Class Redirect {
         ],
         'oppnasoc.se' => (object) [
           'domain' => 'oppnasoc.helsingborg.se',
+          'path' => true
+        ],
+
+        /**
+         * Loopia helsingborgfamily.se
+         */
+
+         'conventionbureauhelsingborg.com' => (object) [
+          'domain' => 'helsingborgceb.com',
+          'path' => true
+        ],
+        'conventionbureauhelsingborg.se' => (object) [
+          'domain' => 'helsingborgceb.com',
+          'path' => true
+        ],
+        'cvbhelsingborg.com' => (object) [
+          'domain' => 'helsingborgceb.com',
+          'path' => true
+        ],
+        'cvbhelsingborg.se' => (object) [
+          'domain' => 'helsingborgceb.com',
+          'path' => true
+        ],
+        'guidehelsingborg.com' => (object) [
+          'domain' => 'visithelsingborg.com',
+          'path' => true
+        ],
+        'guidehelsingborg.se' => (object) [
+          'domain' => 'visithelsingborg.com',
+          'path' => true
+        ],
+        'helsingborgconventionbureau.com' => (object) [
+          'domain' => 'helsingborgceb.com',
+          'path' => true
+        ],
+        'helsingborgconventionbureau.se' => (object) [
+          'domain' => 'helsingborgceb.com',
+          'path' => true
+        ],
+        'helsingborgcvb.com' => (object) [
+          'domain' => 'helsingborgceb.com',
+          'path' => true
+        ],
+        'helsingborgcvb.se' => (object) [
+          'domain' => 'helsingborgceb.com',
+          'path' => true
+        ],
+        'helsingborgfamily.se' => (object) [
+          'domain' => 'familjenhelsingborg.se',
+          'path' => true
+        ],
+        'helsingborgfamily.com' => (object) [
+          'domain' => 'familjenhelsingborg.se',
+          'path' => true
+        ],
+        'naringslivsdagarna.se' => (object) [
+          'domain' => 'hbgtalks.se',
+          'path' => true
+        ],
+        'xn--nringslivsdagarna-qqb.se' => (object) [
+          'domain' => 'hbgtalks.se',
+          'path' => true
+        ],
+        'hbgtalks.nu' => (object) [
+          'domain' => 'hbgtalks.se',
           'path' => true
         ],
       ];
