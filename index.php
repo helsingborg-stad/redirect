@@ -155,7 +155,8 @@ Class Redirect {
         ],
         'adolfinaforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/adolfina-forskola/'
+          'path' => '/forskolor/adolfina-forskola/',
+          'permanent' => true
         ],
         'allerumsforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
@@ -1230,16 +1231,18 @@ Class Redirect {
      */
     public function __construct() {
 
-      $this->map      = $this->getMap(); //Must run first
+      $this->map            = $this->getMap(); //Must run first
 
-      $currentDomain  = $this->getCurrentDomain();
-      $newDomain      = $this->getNewDomain($currentDomain);
-      $newPath        = $this->getNewPath($currentDomain);
+      $currentDomain        = $this->getCurrentDomain();
+      $newDomain            = $this->getNewDomain($currentDomain);
+      $newPath              = $this->getNewPath($currentDomain);
+      $isPermanentRedirect  = $this->isPermanentRedirect($currentDomain);
     
       if($newDomain) {
         $this->makeRedirect(
           $newDomain,
-          $newPath
+          $newPath,
+          $isPermanentRedirect
         );
       }
 
@@ -1291,6 +1294,21 @@ Class Redirect {
         }
       }
       return "";
+    }
+
+    /**
+    * Get the the type of redirect to preforme
+    *
+    * @param string $domain The domain for which to retrieve the new path.
+    * @return string True if redirect is permanent, otherwise.
+    */
+    private function isPermanentRedirect($domain) {
+      if(array_key_exists($domain, $this->map)) {
+        if(isset($this->map[$domain]->permanent) && $this->map[$domain]->permanent == true) {
+          return true;
+        }
+      }
+      return false;
     }
 
     /**
