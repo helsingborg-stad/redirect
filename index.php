@@ -1,4 +1,4 @@
-'permanent' => true<?php
+<?php
 
 /**
  * Class Redirect
