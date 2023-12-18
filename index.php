@@ -160,558 +160,558 @@ Class Redirect {
         ],
         'allerumsforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/allerums-forskola/'
+          'path' => '/forskolor/allerums-forskola/',
           'permanent' => true
         ],
         'arenansidrottsforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/arenans-idrottsforskola/'
+          'path' => '/forskolor/arenans-idrottsforskola/',
           'permanent' => true
         ],
         'birkagatansforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/birkagatans-forskola/'
+          'path' => '/forskolor/birkagatans-forskola/',
           'permanent' => true
         ],
         'blidogatansforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/blidogatans-forskola/'
+          'path' => '/forskolor/blidogatans-forskola/',
           'permanent' => true
         ],
         'brommagatansforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/brommagatans-forskola/'
+          'path' => '/forskolor/brommagatans-forskola/',
           'permanent' => true
         ],
         'brunnsallensforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/brunnsallens-forskola/'
+          'path' => '/forskolor/brunnsallens-forskola/',
           'permanent' => true
         ],
         'brunnsbergaforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/brunnsberga-forskola/'
+          'path' => '/forskolor/brunnsberga-forskola/',
           'permanent' => true
         ],
         'dalhemsforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/dalhems-forskola/'
+          'path' => '/forskolor/dalhems-forskola/',
           'permanent' => true
         ],
         'diamantensforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/diamantens-forskola/'
+          'path' => '/forskolor/diamantens-forskola/',
           'permanent' => true
         ],
         'flohemforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/flohem-forskola/'
+          'path' => '/forskolor/flohem-forskola/',
           'permanent' => true
         ],
         'fridasforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/fridas-forskola/'
+          'path' => '/forskolor/fridas-forskola/',
           'permanent' => true
         ],
         'galaxensforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/galaxens-forskola/'
+          'path' => '/forskolor/galaxens-forskola/',
           'permanent' => true
         ],
         'grashoppansforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/grashoppans-forskola/'
+          'path' => '/forskolor/grashoppans-forskola/',
           'permanent' => true
         ],
         'guldsmedsgatansforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/guldsmedgatans-forskola/'
+          'path' => '/forskolor/guldsmedgatans-forskola/',
           'permanent' => true
         ],
         'hamiltonsforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/hamiltons-forskola/'
+          'path' => '/forskolor/hamiltons-forskola/',
           'permanent' => true
         ],
         'humlegardensforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/humlegardens-forskola/'
+          'path' => '/forskolor/humlegardens-forskola/',
           'permanent' => true
         ],
         'husensjoforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/husensjo-forskola/'
+          'path' => '/forskolor/husensjo-forskola/',
           'permanent' => true
         ],
         'hastskonsforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/hastskons-forskola/'
+          'path' => '/forskolor/hastskons-forskola/',
           'permanent' => true
         ],
         'hogastensforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/hogastens-forskola/'
+          'path' => '/forskolor/hogastens-forskola/',
           'permanent' => true
         ],
         'johnblundsforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/john-blunds-forskola/'
+          'path' => '/forskolor/john-blunds-forskola/',
           'permanent' => true
         ],
         'kaprifolgatansforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/kaprifolgatans-forskola/'
+          'path' => '/forskolor/kaprifolgatans-forskola/',
           'permanent' => true
         ],
         'kattarpsforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/kattarps-forskola/'
+          'path' => '/forskolor/kattarps-forskola/',
           'permanent' => true
         ],
         'kristallensforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/kristallens-forskola/'
+          'path' => '/forskolor/kristallens-forskola/',
           'permanent' => true
         ],
         'lantmatarensforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/lantmatarens-forskola/'
+          'path' => '/forskolor/lantmatarens-forskola/',
           'permanent' => true
         ],
         'lussebackensforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/lussebackens-forskola/'
+          'path' => '/forskolor/lussebackens-forskola/',
           'permanent' => true
         ],
         'mariaparkforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/maria-park-forskola/'
+          'path' => '/forskolor/maria-park-forskola/',
           'permanent' => true
         ],
         'musikantensforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/musikantens-forskola/'
+          'path' => '/forskolor/musikantens-forskola/',
           'permanent' => true
         ],
         'myransforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/myrans-forskola/'
+          'path' => '/forskolor/myrans-forskola/',
           'permanent' => true
         ],
         'morarpsforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/morarps-forskola/'
+          'path' => '/forskolor/morarps-forskola/',
           'permanent' => true
         ],
         'nallensforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/nallens-forskola/'
+          'path' => '/forskolor/nallens-forskola/',
           'permanent' => true
         ],
         'nicandersgatansforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/nicandersgatans-forskola/'
+          'path' => '/forskolor/nicandersgatans-forskola/',
           'permanent' => true
         ],
         'nyckelpigansforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/nyckelpigans-forskola/'
+          'path' => '/forskolor/nyckelpigans-forskola/',
           'permanent' => true
         ],
         'nyponrosensforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/nyponrosens-forskola/'
+          'path' => '/forskolor/nyponrosens-forskola/',
           'permanent' => true
         ],
         'opalensforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/opalens-forskola/'
+          'path' => '/forskolor/opalens-forskola/',
           'permanent' => true
         ],
         'pinjensforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/pinjens-forskola/'
+          'path' => '/forskolor/pinjens-forskola/',
           'permanent' => true
         ],
         'paarpsforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/paarps-forskola/'
+          'path' => '/forskolor/paarps-forskola/',
           'permanent' => true
         ],
         'palsjoostraforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/palsjo-ostra-forskola/'
+          'path' => '/forskolor/palsjo-ostra-forskola/',
           'permanent' => true
         ],
         'regnbagensforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/regnbagens-forskola/'
+          'path' => '/forskolor/regnbagens-forskola/',
           'permanent' => true
         ],
         'rimfaxeforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/rimfaxe-forskola/'
+          'path' => '/forskolor/rimfaxe-forskola/',
           'permanent' => true
         ],
         'ringstorpsforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/ringstorps-forskola/'
+          'path' => '/forskolor/ringstorps-forskola/',
           'permanent' => true
         ],
         'ringstorpsparkensforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/ringstorpsparkens-forskola/'
+          'path' => '/forskolor/ringstorpsparkens-forskola/',
           'permanent' => true
         ],
         'rosenknoppensforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/rosenknoppens-forskola/'
+          'path' => '/forskolor/rosenknoppens-forskola/',
           'permanent' => true
         ],
         'rosenvagensforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/rosenvagens-forskola/'
+          'path' => '/forskolor/rosenvagens-forskola/',
           'permanent' => true
         ],
         'raaforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/raa-forskola/'
+          'path' => '/forskolor/raa-forskola/',
           'permanent' => true
         ],
         'sagotradetsforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/sagotradets-forskola/'
+          'path' => '/forskolor/sagotradets-forskola/',
           'permanent' => true
         ],
         'salladsgatansforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/salladsgatans-forskola/'
+          'path' => '/forskolor/salladsgatans-forskola/',
           'permanent' => true
         ],
         'skaransforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/skarans-forskola/'
+          'path' => '/forskolor/skarans-forskola/',
           'permanent' => true
         ],
         'skogsglantansforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/skogsglantans-forskola/'
+          'path' => '/forskolor/skogsglantans-forskola/',
           'permanent' => true
         ],
         'slottsvangensforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/slottsvangens-forskola/'
+          'path' => '/forskolor/slottsvangens-forskola/',
           'permanent' => true
         ],
         'snobollsgatansforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/snobollsgatans-forskola/'
+          'path' => '/forskolor/snobollsgatans-forskola/',
           'permanent' => true
         ],
         'solrosensforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/solrosens-forskola/'
+          'path' => '/forskolor/solrosens-forskola/',
           'permanent' => true
         ],
         'sprakforskolan.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/sprakforskolan/'
+          'path' => '/forskolor/sprakforskolan/',
           'permanent' => true
         ],
         'stattenaforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/stattena-forskola/'
+          'path' => '/forskolor/stattena-forskola/',
           'permanent' => true
         ],
         'tallkottensforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/tallkottens-forskola/'
+          'path' => '/forskolor/tallkottens-forskola/',
           'permanent' => true
         ],
         'toftaforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/tofta-forskola/'
+          'path' => '/forskolor/tofta-forskola/',
           'permanent' => true
         ],
         'tornerhjelmsforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/tornerhjelms-forskola/'
+          'path' => '/forskolor/tornerhjelms-forskola/',
           'permanent' => true
         ],
         'traktorsgatansforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/traktorsgatans-forskola/'
+          'path' => '/forskolor/traktorsgatans-forskola/',
           'permanent' => true
         ],
         'trollslandansforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/trollslandans-forskola/'
+          'path' => '/forskolor/trollslandans-forskola/',
           'permanent' => true
         ],
         'tradgardensforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/tradgardens-forskola/'
+          'path' => '/forskolor/tradgardens-forskola/',
           'permanent' => true
         ],
         'tuvehagensforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/tuvehagens-forskola/'
+          'path' => '/forskolor/tuvehagens-forskola/',
           'permanent' => true
         ],
         'veingegatansforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/veingegatans-forskola/'
+          'path' => '/forskolor/veingegatans-forskola/',
           'permanent' => true
         ],
         'vikingsbergsforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/vikingsbergs-forskola/'
+          'path' => '/forskolor/vikingsbergs-forskola/',
           'permanent' => true
         ],
         'viktoriaforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/viktoria-forskola/'
+          'path' => '/forskolor/viktoria-forskola/',
           'permanent' => true
         ],
         'villacanzonettaforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/villa-canzonetta-forskola/'
+          'path' => '/forskolor/villa-canzonetta-forskola/',
           'permanent' => true
         ],
         'vindogatansforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/vindogatans-forskola/'
+          'path' => '/forskolor/vindogatans-forskola/',
           'permanent' => true
         ],
         'vintergatansforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/vintergatans-forskola/'
+          'path' => '/forskolor/vintergatans-forskola/',
           'permanent' => true
         ],
         'vastrabergaforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/vastra-berga-forskola/'
+          'path' => '/forskolor/vastra-berga-forskola/',
           'permanent' => true
         ],
         'vaxthusetsforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/vaxthusets-forskola/'
+          'path' => '/forskolor/vaxthusets-forskola/',
           'permanent' => true
         ],
         'wrangelsgatansforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/wrangelsgatans-forskola/'
+          'path' => '/forskolor/wrangelsgatans-forskola/',
           'permanent' => true
         ],
         'ahusgatansforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/ahusgatans-forskola/'
+          'path' => '/forskolor/ahusgatans-forskola/',
           'permanent' => true
         ],
         'angslyckansforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/angslyckans-forskola/'
+          'path' => '/forskolor/angslyckans-forskola/',
           'permanent' => true
         ],
         'appelgardensforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/appelgardens-forskola/'
+          'path' => '/forskolor/appelgardens-forskola/',
           'permanent' => true
         ],
         'attekullaforskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/forskolor/attekulla-forskola/'
+          'path' => '/forskolor/attekulla-forskola/',
           'permanent' => true
         ],
         'allerumsskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/grundskolor/allerums-skola/'
+          'path' => '/grundskolor/allerums-skola/',
           'permanent' => true
         ],
         'anneroskolan.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/grundskolor/anneroskolan/'
+          'path' => '/grundskolor/anneroskolan/',
           'permanent' => true
         ],
         'borgmastarskolan.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/grundskolor/borgmastarskolan-anpassad-skola/'
+          'path' => '/grundskolor/borgmastarskolan-anpassad-skola/',
           'permanent' => true
         ],
         'brunnsparksskolan.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/grundskolor/brunnsparksskolan/'
+          'path' => '/grundskolor/brunnsparksskolan/',
           'permanent' => true
         ],
         'barslovsskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/grundskolor/barslovs-skola/'
+          'path' => '/grundskolor/barslovs-skola/',
           'permanent' => true
         ],
         'drottninghogsskolan.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/grundskolor/drottninghogsskolan/'
+          'path' => '/grundskolor/drottninghogsskolan/',
           'permanent' => true
         ],
         'gantoftaskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/grundskolor/gantofta-skola/'
+          'path' => '/grundskolor/gantofta-skola/',
           'permanent' => true
         ],
         'glantanskolan.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/grundskolor/glantanskolan/'
+          'path' => '/grundskolor/glantanskolan/',
           'permanent' => true
         ],
         'gustavslundsskolan.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/grundskolor/gustavslundsskolan/'
+          'path' => '/grundskolor/gustavslundsskolan/',
           'permanent' => true
         ],
         'holstagardsskolan.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/grundskolor/holstagardsskolan/'
+          'path' => '/grundskolor/holstagardsskolan/',
           'permanent' => true
         ],
         'husensjoskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/grundskolor/husensjo-skola/'
+          'path' => '/grundskolor/husensjo-skola/',
           'permanent' => true
         ],
         'hogastensskolan.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/grundskolor/hogastensskolan/'
+          'path' => '/grundskolor/hogastensskolan/',
           'permanent' => true
         ],
         'kattarpsskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/grundskolor/kattarps-skola/'
+          'path' => '/grundskolor/kattarps-skola/',
           'permanent' => true
         ],
         'larodsskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/grundskolor/larods-skola/'
+          'path' => '/grundskolor/larods-skola/',
           'permanent' => true
         ],
         'mariaparkskolan.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/grundskolor/maria-parkskolan/'
+          'path' => '/grundskolor/maria-parkskolan/',
           'permanent' => true
         ],
         'synkopen.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/grundskolor/musikgrundskolan-synkopen/'
+          'path' => '/grundskolor/musikgrundskolan-synkopen/',
           'permanent' => true
         ],
         'morarpsskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/grundskolor/morarps-skola/'
+          'path' => '/grundskolor/morarps-skola/',
           'permanent' => true
         ],
         'nannypalmkvistskolan.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/grundskolor/nanny-palmkvistskolan/'
+          'path' => '/grundskolor/nanny-palmkvistskolan/',
           'permanent' => true
         ],
         'paarpsskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/grundskolor/paarps-skola/'
+          'path' => '/grundskolor/paarps-skola/',
           'permanent' => true
         ],
         'rausplanteringsskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/grundskolor/raus-planterings-skola/'
+          'path' => '/grundskolor/raus-planterings-skola/',
           'permanent' => true
         ],
         'ringstorpsskolan.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/grundskolor/ringstorpsskolan/'
+          'path' => '/grundskolor/ringstorpsskolan/',
           'permanent' => true
         ],
         'rydebacksskolan.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/grundskolor/rydebacksskolan/'
+          'path' => '/grundskolor/rydebacksskolan/',
           'permanent' => true
         ],
         'raasodraskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/grundskolor/raa-sodra-skola/'
+          'path' => '/grundskolor/raa-sodra-skola/',
           'permanent' => true
         ],
         'ronnbacksskolan.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/grundskolor/ronnbacksskolan-anpassad-skola/'
+          'path' => '/grundskolor/ronnbacksskolan-anpassad-skola/',
           'permanent' => true
         ],
         'stjorgensskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/grundskolor/st-jorgens-skola/'
+          'path' => '/grundskolor/st-jorgens-skola/',
           'permanent' => true
         ],
         'slottsvangsskolan.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/grundskolor/slottsvangsskolan/'
+          'path' => '/grundskolor/slottsvangsskolan/',
           'permanent' => true
         ],
         'svensgardsskolan.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/grundskolor/svensgardsskolan/'
+          'path' => '/grundskolor/svensgardsskolan/',
           'permanent' => true
         ],
         'soderskolan.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/grundskolor/soderskolan/'
+          'path' => '/grundskolor/soderskolan/',
           'permanent' => true
         ],
         'tagaborgsskolan.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/grundskolor/tagaborgsskolan/'
+          'path' => '/grundskolor/tagaborgsskolan/',
           'permanent' => true
         ],
         'vastrabergaskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/grundskolor/vastra-berga-skola/'
+          'path' => '/grundskolor/vastra-berga-skola/',
           'permanent' => true
         ],
         'vastraramlosaskola.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/grundskolor/vastra-ramlosa-skola/'
+          'path' => '/grundskolor/vastra-ramlosa-skola/',
           'permanent' => true
         ],
         'wieselgrensskolan.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/grundskolor/wieselgrensskolan/'
+          'path' => '/grundskolor/wieselgrensskolan/',
           'permanent' => true
         ],
         'attekullaskolan.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/grundskolor/attekullaskolan/'
+          'path' => '/grundskolor/attekullaskolan/',
           'permanent' => true
         ],
         'elinebergsskolan.helsingborg.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/grundskolor/elinebergsskolan/'
+          'path' => '/grundskolor/elinebergsskolan/',
           'permanent' => true
         ],
         'allerum.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/odakra-fleninge-allerum-och-hjalmshult/'
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/odakra-fleninge-allerum-och-hjalmshult/',
         ],
         'attekulla.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/attekulla/'
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/attekulla/',
         ],
         'xn--ttekulla-zza.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/attekulla/'
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/attekulla/',
         ],
         'barslov.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/barslov/'
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/barslov/',
         ],
         'xn--brslv-mra6j.se' => (object) [
           'domain' => 'helsingborg.se',
-          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/barslov/'
+          'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/barslov/',
         ],
         'bibliotekfamiljenhelsingborg.se' => (object) [
           'domain' => 'bibliotekfh.se',
