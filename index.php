@@ -1022,7 +1022,7 @@ Class Redirect {
           'path' => '/bo-bygga-och-miljo/bostader/bostadsomraden-och-samhallen/morarp/'
         ],
         'municipio.nu' => (object) [
-          'domain' => 'municipio.se',
+          'domain' => 'getmunicipio.com',
           'path' => true
         ],
         'narlunda.se' => (object) [
