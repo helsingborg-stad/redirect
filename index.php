@@ -1326,6 +1326,10 @@ Class Redirect {
           'domain' => 'hbgtalks.se',
           'path' => true
         ],
+        'it.helsingborg.se' => (object) [
+          'domain' => 'itportalen.helsingborg.se',
+          'path' => false
+        ],
       ];
     }
 
