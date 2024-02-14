@@ -1330,6 +1330,10 @@ Class Redirect {
           'domain' => 'itportalen.helsingborg.se',
           'path' => false
         ],
+        'driftinfo.helsingborg.se' => (object) [
+          'domain' => 'itportalen.helsingborg.se',
+          'path' => false,
+        ]
       ];
     }
 
