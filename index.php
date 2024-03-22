@@ -1333,6 +1333,10 @@ Class Redirect {
         'driftinfo.helsingborg.se' => (object) [
           'domain' => 'itportalen.helsingborg.se',
           'path' => false,
+        ],
+        'delahbg.com' => (object) [
+          'domain' => 'delahbg.se',
+          'path' => true,
         ]
       ];
     }
