@@ -1283,11 +1283,7 @@ Class Redirect {
           'path' => true
         ],
         'guidehelsingborg.com' => (object) [
-          'domain' => 'visithelsingborg.com',
-          'path' => true
-        ],
-        'guidehelsingborg.se' => (object) [
-          'domain' => 'visithelsingborg.com',
+          'domain' => 'guidehelsingborg.se',
           'path' => true
         ],
         'helsingborgconventionbureau.com' => (object) [
