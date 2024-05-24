@@ -1334,6 +1334,10 @@ Class Redirect {
           'domain' => 'delahbg.se',
           'path' => true,
         ]
+        'habiteum.se' => (object) [
+        'domain' => '/habiteum/',
+        'path' => true,
+        ]
       ];
     }
 
