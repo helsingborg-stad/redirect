@@ -89,20 +89,20 @@ read_files() {
 
             if [[ "$wildcard" == "true" ]]; then
                 cat <<-EOF >> "Caddyfile"
-                    $filename {
-                        $provider_line
-                    }
+$filename {
+    $provider_line
+}
 EOF
             else
 
                 cat <<-EOF >> "Caddyfile"
-                    $filename {
-                        $provider_line
+$filename {
+    $provider_line
 
-                        redir {
-                            to https://$domain$path $redirect_type
-                        }
-                    }
+    redir {
+        to https://$domain$path $redirect_type
+    }
+}
 EOF
             fi
         fi
