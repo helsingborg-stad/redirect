@@ -2,5 +2,5 @@
   "domain": "helsingborg.se",
   "path": "/grundskolor/allerums-skola/",
   "permanent": true,
-  "ssl": "hbgproxy"
+  "ssl": "ignore"
 }

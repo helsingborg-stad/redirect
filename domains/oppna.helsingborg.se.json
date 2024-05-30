@@ -1,5 +1,5 @@
 {
   "domain": "helsingborg.io",
   "path": true,
-  "ssl": "hbgproxy"
+  "ssl": "ignore"
 }

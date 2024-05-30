@@ -1,5 +1,5 @@
 {
   "domain": "vardochomsorg.helsingborg.se",
   "path": "/funktionsnedsattning/daglig-verksamhet/trumslagaren/",
-  "ssl": "hbgproxy"
+  "ssl": "ignore"
 }

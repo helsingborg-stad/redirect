@@ -2,5 +2,5 @@
   "domain": "helsingborg.se",
   "path": "/forskolor/grashoppans-forskola/",
   "permanent": true,
-  "ssl": "hbgproxy"
+  "ssl": "ignore"
 }

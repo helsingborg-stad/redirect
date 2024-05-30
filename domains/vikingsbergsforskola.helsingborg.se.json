@@ -2,5 +2,5 @@
   "domain": "helsingborg.se",
   "path": "/forskolor/vikingsbergs-forskola/",
   "permanent": true,
-  "ssl": "hbgproxy"
+  "ssl": "ignore"
 }

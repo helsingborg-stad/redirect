@@ -2,5 +2,5 @@
   "domain": "helsingborg.se",
   "path": "/forskolor/sprakforskolan/",
   "permanent": true,
-  "ssl": "hbgproxy"
+  "ssl": "ignore"
 }

@@ -2,5 +2,5 @@
   "domain": "helsingborg.se",
   "path": "/grundskolor/nanny-palmkvistskolan/",
   "permanent": true,
-  "ssl": "hbgproxy"
+  "ssl": "ignore"
 }

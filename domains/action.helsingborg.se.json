@@ -1,5 +1,5 @@
 {
   "domain": "foretagare.helsingborg.se",
   "path": true,
-  "ssl": "hbgproxy"
+  "ssl": "ignore"
 }

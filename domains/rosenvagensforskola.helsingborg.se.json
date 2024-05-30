@@ -2,5 +2,5 @@
   "domain": "helsingborg.se",
   "path": "/forskolor/rosenvagens-forskola/",
   "permanent": true,
-  "ssl": "hbgproxy"
+  "ssl": "ignore"
 }

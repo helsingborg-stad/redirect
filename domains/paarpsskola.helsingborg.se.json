@@ -2,5 +2,5 @@
   "domain": "helsingborg.se",
   "path": "/grundskolor/paarps-skola/",
   "permanent": true,
-  "ssl": "hbgproxy"
+  "ssl": "ignore"
 }

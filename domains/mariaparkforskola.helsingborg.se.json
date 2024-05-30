@@ -2,5 +2,5 @@
   "domain": "helsingborg.se",
   "path": "/forskolor/maria-park-forskola/",
   "permanent": true,
-  "ssl": "hbgproxy"
+  "ssl": "ignore"
 }

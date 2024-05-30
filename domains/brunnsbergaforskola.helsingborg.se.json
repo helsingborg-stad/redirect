@@ -2,5 +2,5 @@
   "domain": "helsingborg.se",
   "path": "/forskolor/brunnsberga-forskola/",
   "permanent": true,
-  "ssl": "hbgproxy"
+  "ssl": "ignore"
 }

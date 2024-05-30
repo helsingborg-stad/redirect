@@ -2,5 +2,5 @@
   "domain": "helsingborg.se",
   "path": "/grundskolor/elinebergsskolan/",
   "permanent": true,
-  "ssl": "hbgproxy"
+  "ssl": "ignore"
 }

@@ -1,5 +1,5 @@
 {
   "domain": "hbglearns.helsingborg.se",
   "path": "/learn/course/internal/view/elearning/62/stadsgemensam-hr-introduktion",
-  "ssl": "hbgproxy"
+  "ssl": "ignore"
 }

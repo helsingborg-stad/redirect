@@ -2,5 +2,5 @@
   "domain": "helsingborg.se",
   "path": "/grundskolor/ronnbacksskolan-anpassad-skola/",
   "permanent": true,
-  "ssl": "hbgproxy"
+  "ssl": "ignore"
 }

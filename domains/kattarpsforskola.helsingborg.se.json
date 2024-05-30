@@ -2,5 +2,5 @@
   "domain": "helsingborg.se",
   "path": "/forskolor/kattarps-forskola/",
   "permanent": true,
-  "ssl": "hbgproxy"
+  "ssl": "ignore"
 }

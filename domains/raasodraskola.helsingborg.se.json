@@ -2,5 +2,5 @@
   "domain": "helsingborg.se",
   "path": "/grundskolor/raa-sodra-skola/",
   "permanent": true,
-  "ssl": "hbgproxy"
+  "ssl": "ignore"
 }
