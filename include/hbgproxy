@@ -1,0 +1,12 @@
+(tls-hbgproxy) {
+	tls {
+		issuer acme {
+			dns loopia {
+				username "$HBGPROXY_USERNAME"
+				password "$HBGPROXY_PASSWORD"
+			}
+
+			dns_challenge_override_domain _acme-challenge.helsingborgproxy.se
+		}
+	}
+}

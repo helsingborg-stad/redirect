@@ -1,0 +1,11 @@
+(tls-hbg) {
+	tls {
+		issuer acme {
+			propagation_timeout "15m0s"
+			dns loopia {
+				username "$HBG_USERNAME"
+				password "$HBG_PASSWORD"
+			}
+		}
+	}
+}
