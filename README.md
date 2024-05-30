@@ -15,6 +15,12 @@ Inside, use the following keys. The ones marked with ⭐ are mandatory.
 - `permanent` - If the redirect should be a 301 status
 - ⭐ `ssl` - Which path to take when generating the SSL certificate.
 
+### Wildcards
+
+You can also add a wildcard domain, by instead specifying the `wildcard` key, and setting it to true.
+
+Doing so still requires the `ssl` key to be set.
+
 ## SSL
 
 In order to get working ssl certs, you need to specify the key `ssl` in your json.
@@ -25,6 +31,7 @@ Set it to one of the following:
 - hbg: For domains on the helsingborg account
 - famhbg: For domains on the familjen helsingborg account
 - hbgproxy: For domains needing to be certified with the proxy domain (Basically *.helsingborg.se)
+- ignore: For any domains where you don't need an cert to be specifically generated, i.e if you've made a wildcard domain.
 
 ## Generating the Caddyfile
 

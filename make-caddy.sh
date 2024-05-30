@@ -60,6 +60,7 @@ read_files() {
             path=$(jq -r '.path' "$file")
             permanent=$(jq -r '.permanent' "$file")
             ssl_provider=$(jq -r '.ssl' "$file")
+            wildcard=$(jq -r '.wildcard' "$file")
 
             if [[ "$permanent" == "true" ]]; then
                 redirect_type="permanent"
@@ -79,22 +80,33 @@ read_files() {
                 provider_line="import tls-famhbg"
             elif [[ "$ssl_provider" == "hbgproxy" ]]; then
                 provider_line="import tls-hbgproxy"
+            elif [[ "$ssl_provider" == "ignore" ]]; then
+                provider_line=""
             elif [[ "$ssl_provider" == "" || "$ssl_provider" == "null" ]]; then
                 echo "Warning! SSL provider for $filename not set."
             fi
 
-            cat <<-EOF >> "Caddyfile"
-$filename {
-    $provider_line
 
-    redir {
-        to https://$domain$path $redirect_type
-    }
-}
+            if [[ "$wildcard" == "true" ]]; then
+                cat <<-EOF >> "Caddyfile"
+                    $filename {
+                        $provider_line
+                    }
 EOF
+            else
 
-provider_line=
+                cat <<-EOF >> "Caddyfile"
+                    $filename {
+                        $provider_line
+
+                        redir {
+                            to https://$domain$path $redirect_type
+                        }
+                    }
+EOF
+            fi
         fi
+        provider_line=
     done
 
     echo "All done :)"
