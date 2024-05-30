@@ -1,4 +1,5 @@
 {
   "domain": "stadslexikon.helsingborg.se",
-  "path": "/hsslunda/"
+  "path": "/hsslunda/",
+  "ssl": "hbg"
 }

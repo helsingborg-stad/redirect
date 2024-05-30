@@ -1,4 +1,5 @@
 {
   "domain": "itportalen.helsingborg.se",
-  "path": false
+  "path": false,
+  "ssl": "hbgproxy"
 }

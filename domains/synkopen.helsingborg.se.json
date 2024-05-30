@@ -1,5 +1,6 @@
 {
   "domain": "helsingborg.se",
   "path": "/grundskolor/musikgrundskolan-synkopen/",
-  "permanent": true
+  "permanent": true,
+  "ssl": "hbgproxy"
 }

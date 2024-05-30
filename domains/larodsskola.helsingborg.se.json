@@ -1,5 +1,6 @@
 {
   "domain": "helsingborg.se",
   "path": "/grundskolor/larods-skola/",
-  "permanent": true
+  "permanent": true,
+  "ssl": "hbgproxy"
 }

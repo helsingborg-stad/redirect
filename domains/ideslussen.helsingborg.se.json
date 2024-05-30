@@ -1,4 +1,5 @@
 {
   "domain": "intranat.helsingborg.se",
-  "path": "/hjalp-och-stod/ideslussen/"
+  "path": "/hjalp-och-stod/ideslussen/",
+  "ssl": "hbgproxy"
 }

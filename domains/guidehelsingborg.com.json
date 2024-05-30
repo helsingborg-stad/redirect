@@ -1,4 +1,5 @@
 {
   "domain": "guidehelsingborg.se",
-  "path": true
+  "path": true,
+  "ssl": "famhbg"
 }

@@ -1,4 +1,5 @@
 {
   "domain": "stadslexikon.helsingborg.se",
-  "path": "/kvistofta/"
+  "path": "/kvistofta/",
+  "ssl": "hbg"
 }

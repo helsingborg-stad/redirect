@@ -1,4 +1,5 @@
 {
   "domain": "familjenhelsingborg.se",
-  "path": false
+  "path": false,
+  "ssl": "hbg"
 }

@@ -1,4 +1,5 @@
 {
   "domain": "helsingborg.se",
-  "path": "/uppleva-och-gora/stadsodling/"
+  "path": "/uppleva-och-gora/stadsodling/",
+  "ssl": "hbgproxy"
 }

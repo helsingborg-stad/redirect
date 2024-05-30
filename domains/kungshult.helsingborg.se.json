@@ -1,4 +1,5 @@
 {
   "domain": "vardochomsorg.helsingborg.se",
-  "path": "/senior/boende-for-aldre/vardboenden/kungshult/"
+  "path": "/senior/boende-for-aldre/vardboenden/kungshult/",
+  "ssl": "hbgproxy"
 }

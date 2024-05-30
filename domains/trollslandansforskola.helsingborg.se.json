@@ -1,5 +1,6 @@
 {
   "domain": "helsingborg.se",
   "path": "/forskolor/trollslandans-forskola/",
-  "permanent": true
+  "permanent": true,
+  "ssl": "hbgproxy"
 }

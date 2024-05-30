@@ -1,4 +1,5 @@
 {
   "domain": "oppnasoc.helsingborg.se",
-  "path": true
+  "path": true,
+  "ssl": "hbg"
 }

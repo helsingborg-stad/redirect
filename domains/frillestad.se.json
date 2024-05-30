@@ -1,4 +1,5 @@
 {
   "domain": "stadslexikon.helsingborg.se",
-  "path": "/frillestad/"
+  "path": "/frillestad/",
+  "ssl": "hbg"
 }

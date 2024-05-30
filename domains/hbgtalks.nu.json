@@ -1,4 +1,5 @@
 {
   "domain": "hbgtalks.se",
-  "path": true
+  "path": true,
+  "ssl": "famhbg"
 }

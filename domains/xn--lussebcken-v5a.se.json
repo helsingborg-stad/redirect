@@ -1,4 +1,5 @@
 {
   "domain": "stadslexikon.helsingborg.se",
-  "path": "/lussebcken/"
+  "path": "/lussebcken/",
+  "ssl": "hbg"
 }

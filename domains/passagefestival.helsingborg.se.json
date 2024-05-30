@@ -1,4 +1,5 @@
 {
   "domain": "passagefestival.nu",
-  "path": "/en/"
+  "path": "/en/",
+  "ssl": "hbgproxy"
 }

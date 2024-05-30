@@ -1,4 +1,5 @@
 {
   "domain": "stadslexikon.helsingborg.se",
-  "path": "/vasatorp/"
+  "path": "/vasatorp/",
+  "ssl": "hbg"
 }

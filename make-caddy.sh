@@ -67,25 +67,33 @@ read_files() {
                 redirect_type="temporary"
             fi
 
-            if [[ "$provider" == "rsnv" ]]; then
+            if [[ "$path" == "true" ]]; then
+                path="{uri}"
+            fi
+
+            if [[ "$ssl_provider" == "rsnv" ]]; then
                 provider_line="import tls-rsnv"
-            elif [[ "$provider" == "hbg" ]]; then
+            elif [[ "$ssl_provider" == "hbg" ]]; then
                 provider_line="import tls-hbg"
-            elif [[ "$provider" == "famhbg" ]]; then
+            elif [[ "$ssl_provider" == "famhbg" ]]; then
                 provider_line="import tls-famhbg"
-            elif [[ "$provider" == "hbgproxy" ]]; then
+            elif [[ "$ssl_provider" == "hbgproxy" ]]; then
                 provider_line="import tls-hbgproxy"
-            elif [[ "$provider" == "" ]]; then
+            elif [[ "$ssl_provider" == "" || "$ssl_provider" == "null" ]]; then
                 echo "Warning! SSL provider for $filename not set."
             fi
 
             cat <<-EOF >> "Caddyfile"
 $filename {
+    $provider_line
+
     redir {
         to https://$domain$path $redirect_type
     }
 }
 EOF
+
+provider_line=
         fi
     done
 

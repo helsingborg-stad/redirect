@@ -1,4 +1,5 @@
 {
   "domain": "studentstadenhelsingborg.se",
-  "path": true
+  "path": true,
+  "ssl": "hbg"
 }

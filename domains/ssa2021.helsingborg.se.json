@@ -1,4 +1,5 @@
 {
   "domain": "ssa.helsingborg.se",
-  "path": true
+  "path": true,
+  "ssl": "hbgproxy"
 }

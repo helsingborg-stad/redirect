@@ -1,4 +1,5 @@
 {
   "domain": "larlingsgymnasium.helsingborg.se",
-  "path": true
+  "path": true,
+  "ssl": "hbg"
 }

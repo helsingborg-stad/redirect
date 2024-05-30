@@ -1,4 +1,5 @@
 {
   "domain": "helsingborg.se",
-  "path": "/habiteum/"
+  "path": "/habiteum/",
+  "ssl": "hbg"
 }

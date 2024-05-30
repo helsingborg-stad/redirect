@@ -1,4 +1,5 @@
 {
   "domain": "stadslexikon.helsingborg.se",
-  "path": "/ottarp/"
+  "path": "/ottarp/",
+  "ssl": "hbg"
 }

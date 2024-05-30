@@ -6,10 +6,12 @@ A "simple" service that redirects.
 
 In order to add a new redirect, create a new json file in the `domains` folder. The name should match the domain you're redirecting FROM, with dots.
 
+Please note that if your domain includes non-latin characters, such as `å`, `ä` or `ö`, you will need to convert them into punycode, which can be done with [punycoder](https://www.punycoder.com/).
+
 Inside, use the following keys. The ones marked with ⭐ are mandatory.
 
 -  ⭐ `domain` - The domain to redirect TO
-- `path` - If the path should be kept with the redirect
+- `path` - The string path to redirect to, or a boolean `true` if the path should be kept with the redirect
 - `permanent` - If the redirect should be a 301 status
 - ⭐ `ssl` - Which path to take when generating the SSL certificate.
 

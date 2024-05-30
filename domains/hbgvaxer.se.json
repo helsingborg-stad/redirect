@@ -1,4 +1,5 @@
 {
   "domain": "helsingborg.se",
-  "path": "/trafik-och-stadsplanering/stadsutvecklingsprojekt/"
+  "path": "/trafik-och-stadsplanering/stadsutvecklingsprojekt/",
+  "ssl": "hbg"
 }

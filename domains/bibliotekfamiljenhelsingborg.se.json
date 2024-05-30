@@ -1,4 +1,5 @@
 {
   "domain": "bibliotekfh.se",
-  "path": true
+  "path": true,
+  "ssl": "hbg"
 }

@@ -1,5 +1,6 @@
 {
   "domain": "helsingborg.se",
   "path": "/grundskolor/maria-parkskolan/",
-  "permanent": true
+  "permanent": true,
+  "ssl": "hbgproxy"
 }

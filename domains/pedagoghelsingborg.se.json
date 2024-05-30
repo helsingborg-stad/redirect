@@ -1,4 +1,5 @@
 {
   "domain": "pedagogsajten.familjenhelsingborg.se",
-  "path": true
+  "path": true,
+  "ssl": "hbg"
 }

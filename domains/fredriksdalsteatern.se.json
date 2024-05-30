@@ -1,4 +1,5 @@
 {
   "domain": "anagram.se",
-  "path": "/live/anagram-live-pa-fredriksdalsteatern/"
+  "path": "/live/anagram-live-pa-fredriksdalsteatern/",
+  "ssl": "hbg"
 }

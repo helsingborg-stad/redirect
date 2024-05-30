@@ -1,4 +1,5 @@
 {
   "domain": "helsingborg.se",
-  "path": "/gymnasiemassan/"
+  "path": "/gymnasiemassan/",
+  "ssl": "hbg"
 }
