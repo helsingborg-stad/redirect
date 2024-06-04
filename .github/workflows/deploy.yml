@@ -1,0 +1,20 @@
+name: 'deploy-redirect'
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  pull:
+    uses: appleboy/ssh-action@v1.0.0
+    with:
+      host: ${{ secrets.deploy-host }}
+      username: ${{ secrets.deploy-host-user }}
+      key: ${{ secrets.deploy-host-user-key }}
+      port: ${{ secrets.deploy-port }}
+      script: |
+        cd ~/redirect-v2
+        git pull
+        chmod +x ./make-caddy.sh
+        ./make-caddy.sh
+        sudo caddy reload
