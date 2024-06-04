@@ -13,8 +13,9 @@ jobs:
       key: ${{ secrets.deploy-host-user-key }}
       port: ${{ secrets.deploy-port }}
       script: |
-        cd ~/redirect-v2
+        cd ~/redirect
         git pull
         chmod +x ./make-caddy.sh
         ./make-caddy.sh
-        sudo caddy reload
+        mv ./Caddyfile /etc/caddy/Caddyfile
+        sudo service caddy reload
