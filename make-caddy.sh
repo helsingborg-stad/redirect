@@ -99,9 +99,7 @@ EOF
 $filename {
     $provider_line
 
-    redir {
-        to https://$domain$path $redirect_type
-    }
+    redir https://$domain$path $redirect_type
 }
 EOF
             fi
