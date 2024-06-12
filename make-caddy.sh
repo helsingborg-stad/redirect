@@ -56,6 +56,11 @@ read_files() {
             # Extract the filename without the extension
             filename=$(basename "$file" .json)
 
+            if [ $(cat $file | jq empty > /dev/null 2>&1; echo $?) -ne 0 ]; then
+                echo "Invalid JSON with $file!"
+                break
+            fi
+
             domain=$(jq -r '.domain' "$file")
             path=$(jq -r '.path' "$file")
             permanent=$(jq -r '.permanent' "$file")
