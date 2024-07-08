@@ -1,5 +1,5 @@
 {
   "domain": "intranat.helsingborg.se",
   "path": "/hjalp-och-stod/ideslussen/",
-  "ssl": "ignore"
+  "ssl": "parent"
 }

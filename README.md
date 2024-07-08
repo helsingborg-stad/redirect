@@ -33,11 +33,16 @@ Set it to one of the following:
 - hbgproxy: For domains needing to be certified with the proxy domain (Basically *.helsingborg.se)
 - ignore: For any domains where you don't need an cert to be specifically generated, i.e if you've made a wildcard domain.
 
+## Installing
+
+Please ensure that your system has python3 and pip installed.
+
+Once these are installed, you may run pip install -r requirements.txt
+
 ## Generating the Caddyfile
 
 Extremely simple once you've filled out your `.env` file!
 
 ```sh
-chmod +x ./make-caddy.sh
-./make-caddy.sh
+python ./make-caddy.py
 ```

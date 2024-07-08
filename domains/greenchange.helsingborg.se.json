@@ -1,5 +1,5 @@
 {
   "domain": "klimatavtal.helsingborg.se",
   "path": true,
-  "ssl": "ignore"
+  "ssl": "parent"
 }

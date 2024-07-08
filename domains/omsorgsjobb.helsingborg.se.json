@@ -1,5 +1,5 @@
 {
   "domain": "helsingborg.se",
   "path": "/jobb/",
-  "ssl": "ignore"
+  "ssl": "parent"
 }

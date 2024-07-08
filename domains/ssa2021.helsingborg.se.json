@@ -1,5 +1,5 @@
 {
   "domain": "ssa.helsingborg.se",
   "path": true,
-  "ssl": "ignore"
+  "ssl": "parent"
 }

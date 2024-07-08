@@ -2,5 +2,5 @@
   "domain": "helsingborg.se",
   "path": "/forskolor/nicandersgatans-forskola/",
   "permanent": true,
-  "ssl": "ignore"
+  "ssl": "parent"
 }

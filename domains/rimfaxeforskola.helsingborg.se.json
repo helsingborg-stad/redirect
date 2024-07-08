@@ -2,5 +2,5 @@
   "domain": "helsingborg.se",
   "path": "/forskolor/rimfaxe-forskola/",
   "permanent": true,
-  "ssl": "ignore"
+  "ssl": "parent"
 }

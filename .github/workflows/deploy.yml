@@ -15,7 +15,7 @@ jobs:
       script: |
         cd ~/redirect
         git pull
-        chmod +x ./make-caddy.sh
+        python ./make-caddy.py
         ./make-caddy.sh
         caddy fmt --overwrite
         mv ./Caddyfile /etc/caddy/Caddyfile

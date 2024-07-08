@@ -2,5 +2,5 @@
   "domain": "helsingborg.se",
   "path": "/grundskolor/soderskolan/",
   "permanent": true,
-  "ssl": "ignore"
+  "ssl": "parent"
 }

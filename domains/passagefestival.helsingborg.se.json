@@ -1,5 +1,5 @@
 {
   "domain": "passagefestival.nu",
   "path": "/en/",
-  "ssl": "ignore"
+  "ssl": "parent"
 }

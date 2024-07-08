@@ -2,5 +2,5 @@
   "domain": "helsingborg.se",
   "path": "/forskolor/slottsvangens-forskola/",
   "permanent": true,
-  "ssl": "ignore"
+  "ssl": "parent"
 }

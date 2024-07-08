@@ -1,5 +1,5 @@
 {
   "domain": "styleguide.getmunicipio.com",
   "path": true,
-  "ssl": "ignore"
+  "ssl": "parent"
 }

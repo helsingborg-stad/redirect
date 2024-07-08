@@ -1,5 +1,5 @@
 {
   "domain": "helsingborgsmuseum.se",
   "path": true,
-  "ssl": "ignore"
+  "ssl": "parent"
 }

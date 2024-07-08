@@ -2,5 +2,5 @@
   "domain": "helsingborg.se",
   "path": "/grundskolor/morarps-skola/",
   "permanent": true,
-  "ssl": "ignore"
+  "ssl": "parent"
 }

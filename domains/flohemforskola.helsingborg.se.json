@@ -2,5 +2,5 @@
   "domain": "helsingborg.se",
   "path": "/forskolor/flohem-forskola/",
   "permanent": true,
-  "ssl": "ignore"
+  "ssl": "parent"
 }
