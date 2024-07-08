@@ -52,7 +52,7 @@ class Domain:
     def __to_subdomain_block(self) -> str:
         subName = self.filename.split(".")[0]
 
-        retStr =  f"    @{subName}\n"
+        retStr =  f"    @{subName} host {self.filename}\n"
         retStr += f"    handle @{subName} {{\n"
         retStr += f"        {self.redirect}\n"
         retStr +=  "    }\n"
