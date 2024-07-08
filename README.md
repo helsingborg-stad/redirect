@@ -32,6 +32,7 @@ Set it to one of the following:
 - famhbg: For domains on the familjen helsingborg account
 - hbgproxy: For domains needing to be certified with the proxy domain (Basically *.helsingborg.se)
 - ignore: For any domains where you don't need an cert to be specifically generated, i.e if you've made a wildcard domain.
+- parent: If your domain should be attached to a wildcards cert. (Preferred over ignore.)
 
 ## Installing
 
