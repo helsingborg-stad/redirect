@@ -1,0 +1,11 @@
+(tls-rsnv) {
+	tls {
+		issuer acme {
+			propagation_timeout "15m0s"
+			dns loopia {
+				username "$RSNV_USERNAME"
+				password "$RSNV_PASSWORD"
+			}
+		}
+	}
+}

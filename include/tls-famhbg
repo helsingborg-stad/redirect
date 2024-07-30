@@ -1,0 +1,11 @@
+(tls-famhbg) {
+	tls {
+		issuer acme {
+			propagation_timeout "15m0s"
+			dns loopia {
+				username "$FAMHBG_USERNAME"
+				password "$FAMHBG_PASSWORD"
+			}
+		}
+	}
+}
