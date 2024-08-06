@@ -5,17 +5,23 @@ on:
       - main
 
 jobs:
-  pull:
-    uses: appleboy/ssh-action@v1.0.0
-    with:
-      host: ${{ secrets.deploy-host }}
-      username: ${{ secrets.deploy-host-user }}
-      key: ${{ secrets.deploy-host-user-key }}
-      port: ${{ secrets.deploy-port }}
-      script: |
-        cd ~/redirect
-        git pull
-        python ./make-caddy.py
-        caddy fmt --overwrite
-        mv ./Caddyfile /etc/caddy/Caddyfile
-        sudo service caddy reload
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Deploy via SSH
+        uses: appleboy/ssh-action@v0.1.8
+        with:
+          host: ${{ secrets.deploy-host }}
+          username: ${{ secrets.deploy-host-user }}
+          key: ${{ secrets.deploy-host-user-key }}
+          port: ${{ secrets.deploy-port }}
+          script: |
+            cd ~/redirect
+            git pull
+            python ./make-caddy.py
+            caddy fmt --overwrite
+            mv ./Caddyfile /etc/caddy/Caddyfile
+            sudo service caddy reload
