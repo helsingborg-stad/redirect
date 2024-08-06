@@ -1,0 +1,7 @@
+env-redirect-v2.jls-sto2.elastx.net {
+    tls {
+        issuer acme
+    }
+
+    respond "OK"
+}
