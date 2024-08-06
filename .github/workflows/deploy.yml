@@ -14,10 +14,10 @@ jobs:
       - name: Deploy via SSH
         uses: appleboy/ssh-action@v0.1.8
         with:
-          host: ${{ secrets.deploy-host }}
-          username: ${{ secrets.deploy-host-user }}
-          key: ${{ secrets.deploy-host-user-key }}
-          port: ${{ secrets.deploy-port }}
+          host: ${{ secrets.DEPLOY_HOST }}
+          username: ${{ secrets.DEPLOY_HOST_USER }}
+          key: ${{ secrets.DEPLOY_HOST_USER_KEY }}
+          port: ${{ secrets.DEPLOY_PORT }}
           script: |
             cd ~/redirect
             git pull
