@@ -2,3 +2,4 @@ tests/
 .env
 Caddyfile
 .DS_Store
+venv/

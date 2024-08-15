@@ -34,11 +34,11 @@ class Domain:
                 return "import tls-hbgproxy"
             case "ignore":
                 return ""
-            
+    
     @property
     def redirect(self) -> str:
         redirectType = "permanent" if self.permanent else "temporary"
-        path = "{uri}" if self.path == True else self.path
+        path = "{uri}" if self.path is True else "" if not self.path else self.path
 
         return f"redir https://{self.domain}{path} {redirectType}"
 
