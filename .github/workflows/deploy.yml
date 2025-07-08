@@ -21,8 +21,12 @@ jobs:
           port: ${{ secrets.DEPLOY_PORT }}
           script: |
             cd ~/redirect
+            echo "Start Date:             $(date -u)" > deploy.log
             git pull
             python ./make-caddy.py
             caddy fmt --overwrite
             mv ./Caddyfile /etc/caddy/Caddyfile
             sudo service caddy reload
+            echo "Revision (full):  $(git rev-parse HEAD)" >> deploy.log
+            echo "Revision (short): $(git rev-parse --short HEAD)" >> deploy.log
+            echo "End Date:             $(date -u)" >> deploy.log
