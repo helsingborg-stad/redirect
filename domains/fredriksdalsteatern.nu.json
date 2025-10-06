@@ -1,5 +1,5 @@
 {
-  "domain": "fredriksdal.se",
-  "path": "/om-fredriksdal/fredriksdalsteatern/",
+  "domain": "fredriksdalsteatern.se",
+  "path": true,
   "ssl": "hbg"
 }
