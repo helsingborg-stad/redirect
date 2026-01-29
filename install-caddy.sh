@@ -45,7 +45,7 @@ cat <<-EOF >> "Caddyfile"
 }
 
 # Define a site and how to respond to requests
-example.com {
+example.com, www.example.com {
     root * /srv
     file_server
 }

@@ -77,14 +77,26 @@ class Domain:
         return retStr
 
     def to_caddyblock(self) -> str:
-        if self.wildcard: return self.__to_wildcard_block()
-        return f"""
-            {self.filename} {{
-                {self.sslProvider}
+        if self.wildcard:
+            return self.__to_wildcard_block()
 
-                {self.redirect}
-            }}
-        """
+        # Check if the domain is a root domain (no subdomain or wildcard)
+        if self.filename.count(".") == 1:  # Root domain has only one dot (e.g., example.com)
+            return f"""
+                {self.filename}, www.{self.filename} {{
+                    {self.sslProvider}
+
+                    {self.redirect}
+                }}
+            """
+        else:
+            return f"""
+                {self.filename} {{
+                    {self.sslProvider}
+
+                    {self.redirect}
+                }}
+            """
 
 def resolve_env_vars(line):
     import re
