@@ -20,10 +20,12 @@ class Domain:
 
     @property
     def sslProvider(self) -> str:
-        if self._sslProvider == "":
+        provider = (self._sslProvider or "").strip().lower()
+
+        if provider == "":
             print(f"Warning! SSL provider for {self.filename} not set.")
 
-        match self._sslProvider:
+        match provider:
             case "rsnv":
                 return "import tls-rsnv"
             case "hbg":
@@ -32,7 +34,12 @@ class Domain:
                 return "import tls-famhbg"
             case "hbgproxy":
                 return "import tls-hbgproxy"
-            case "ignore":
+            case "ignore" | "default" | "parent":
+                return ""
+            case "":
+                return ""
+            case _:
+                print(f"Warning! Unknown SSL provider '{self._sslProvider}' for {self.filename}. Falling back to default handling.")
                 return ""
     
     @property

@@ -1,5 +1,5 @@
 {
   "domain": "hh-forbindelsen.se",
   "path": true,
-  "ssl": "hbg"
+  "ssl": "default"
 }
