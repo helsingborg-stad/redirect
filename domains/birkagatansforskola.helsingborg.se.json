@@ -1,6 +1,5 @@
 {
   "domain": "helsingborg.se",
   "path": "/forskolor/birkagatans-forskola/",
-  "permanent": true,
-  "ssl": "parent"
+  "permanent": true
 }

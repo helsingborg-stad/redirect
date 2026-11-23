@@ -1,5 +1,4 @@
 {
   "domain": "tychobraheskolan.helsingborg.se",
-  "path": true,
-  "ssl": "hbg"
+  "path": true
 }

@@ -1,5 +1,4 @@
 {
   "domain": "visitskanenv.com",
-  "path": true,
-  "ssl": "hbg"
+  "path": true
 }

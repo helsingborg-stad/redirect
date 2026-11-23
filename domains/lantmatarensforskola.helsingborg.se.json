@@ -1,6 +1,5 @@
 {
   "domain": "helsingborg.se",
   "path": "/forskolor/lantmatarens-forskola/",
-  "permanent": true,
-  "ssl": "parent"
+  "permanent": true
 }

@@ -1,5 +1,4 @@
 {
   "domain": "helsingborg.io",
-  "path": true,
-  "ssl": "parent"
+  "path": true
 }

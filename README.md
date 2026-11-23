@@ -13,37 +13,23 @@ Inside, use the following keys. The ones marked with ⭐ are mandatory.
 -  ⭐ `domain` - The domain to redirect TO
 - `path` - The string path to redirect to, or a boolean `true` if the path should be kept with the redirect
 - `permanent` - If the redirect should be a 301 status
-- ⭐ `ssl` - Which path to take when generating the SSL certificate.
 
-### Wildcards
+Every source hostname is explicit. A root-domain record such as `example.com.json`
+also serves `www.example.com`; add a separate JSON file for every other hostname.
+This is intentional: Caddy uses HTTP-01, so each name must resolve to this service
+on TCP port 80.
 
-You can also add a wildcard domain, by instead specifying the `wildcard` key, and setting it to true.
+## TLS
 
-Doing so still requires the `ssl` key to be set.
-
-## SSL
-
-In order to get working ssl certs, you need to specify the key `ssl` in your json.
-
-Set it to one of the following:
-
-- rsnv: For domains on the rsnv account
-- hbg: For domains on the helsingborg account
-- famhbg: For domains on the familjen helsingborg account
-- hbgproxy: For domains needing to be certified with the proxy domain (Basically *.helsingborg.se)
-- default: Use Caddy default certificate handling (no explicit DNS challenge import)
-- ignore: For any domains where you don't need an cert to be specifically generated, i.e if you've made a wildcard domain.
-- parent: If your domain should be attached to a wildcards cert. (Preferred over ignore.)
+Before adding or deploying a redirect, point the domain's A/AAAA record at the
+redirect service's public IP, ensure TCP ports 80 and 443 are reachable, and allow
+the ACME issuer in CAA. Caddy obtains and renews each certificate with HTTP-01.
 
 ## Installing
 
 Please ensure that your system has python3 and pip installed.
 
-Once these are installed, you may run pip install -r requirements.txt
-
 ## Generating the Caddyfile
-
-Extremely simple once you've filled out your `.env` file!
 
 ```sh
 python ./make-caddy.py
