@@ -1,6 +1,4 @@
 {
-    "domain": "visithelsingborg.com",
-    "path": true,
-    "ssl": "hbg"
+  "domain": "visithelsingborg.com",
+  "path": true
 }
-  

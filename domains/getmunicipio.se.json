@@ -1,5 +1,4 @@
 {
   "domain": "getmunicipio.com",
-  "path": true,
-  "ssl": "hbg"
+  "path": true
 }

@@ -1,6 +1,5 @@
 {
   "domain": "helsingborg.se",
   "path": "/forskolor/musikantens-forskola/",
-  "permanent": true,
-  "ssl": "parent"
+  "permanent": true
 }

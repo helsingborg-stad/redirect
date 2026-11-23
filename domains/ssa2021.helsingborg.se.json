@@ -1,5 +1,4 @@
 {
   "domain": "ssa.helsingborg.se",
-  "path": true,
-  "ssl": "parent"
+  "path": true
 }

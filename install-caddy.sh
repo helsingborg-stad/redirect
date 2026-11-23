@@ -1,31 +1,8 @@
 #!/bin/bash
 
-# install go
-
-if ! command -v go &> /dev/null; then
-    echo "Go not found, installing Go..."
-    wget https://golang.org/dl/go1.22.3.linux-amd64.tar.gz
-    sudo tar -C /usr/local -xzf go1.22.3.linux-amd64.tar.gz
-    rm go1.22.3.linux-amd64.tar.gz
-    echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.bashrc
-    source ~/.bashrc
-fi
-
-# Install XCaddy
-
-sudo apt install -y debian-keyring debian-archive-keyring apt-transport-https
-curl -1sLf 'https://dl.cloudsmith.io/public/caddy/xcaddy/gpg.key' | sudo gpg --dearmor -o /usr/share/keyrings/caddy-xcaddy-archive-keyring.gpg
-curl -1sLf 'https://dl.cloudsmith.io/public/caddy/xcaddy/debian.deb.txt' | sudo tee /etc/apt/sources.list.d/caddy-xcaddy.list
+# HTTP-01 uses stock Caddy; no custom DNS-provider modules are needed.
 sudo apt update
-sudo apt install xcaddy
-
-# Build caddy with plugins
-
-xcaddy build \
-    --with github.com/caddy-dns/loopia \
-    --with github.com/caddy-dns/namedotcom
-
-mv ./caddy /usr/local/bin/
+sudo apt install -y caddy
 
 # Create folders
 

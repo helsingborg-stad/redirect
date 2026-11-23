@@ -1,6 +1,5 @@
 {
   "domain": "helsingborg.se",
   "path": "/grundskolor/vastra-berga-skola/",
-  "permanent": true,
-  "ssl": "parent"
+  "permanent": true
 }

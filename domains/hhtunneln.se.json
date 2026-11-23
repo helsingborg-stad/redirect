@@ -1,5 +1,4 @@
 {
   "domain": "hh-gruppen.org",
-  "path": true,
-  "ssl": "hbg"
+  "path": true
 }
