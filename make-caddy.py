@@ -2,6 +2,7 @@ import json
 import os
 
 key_directory = "./domains"
+base_domain = "{$REDIRECT_BASE_DOMAIN}"
 
 class Domain:
     def __init__(self, filename: str, domain: str, path: str | bool, permanent: bool):
@@ -58,7 +59,9 @@ def read_files() -> dict[str, Domain]:
     
 
 def build_caddyfile(domains: dict[str, Domain]) -> str:
-    return "".join(domain.to_caddyblock() for _, domain in sorted(domains.items()))
+    health = f'{base_domain} {{\n\trespond /healtz "ok" 200\n}}\n\n'
+    redirects = "".join(domain.to_caddyblock() for _, domain in sorted(domains.items()))
+    return health + redirects
 
 if __name__ == "__main__":
     domainList = read_files()

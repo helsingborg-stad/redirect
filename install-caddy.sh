@@ -9,24 +9,10 @@ sudo apt install -y caddy
 echo "Creating necessary directories..."
 sudo mkdir -p /etc/caddy /var/log/caddy /srv
 
-# Create a basic Caddyfile
-echo "Creating a basic Caddyfile..."
-
-cat <<-EOF >> "Caddyfile"
-{
-    # Global options block. Entirely optional, https is on by default
-    # Optional email key for lets encrypt
-    email you@example.com
-    # Optional staging lets encrypt for testing. Comment out for production.
-    acme_ca https://acme-staging-v02.api.letsencrypt.org/directory
-}
-
-# Define a site and how to respond to requests
-example.com, www.example.com {
-    root * /srv
-    file_server
-}
-EOF
+if [ ! -f /etc/redirect.env ]; then
+    echo "Create /etc/redirect.env with REDIRECT_BASE_DOMAIN before starting Caddy."
+    exit 1
+fi
 
 # Create the systemd service file
 echo "Creating systemd service file..."
@@ -39,8 +25,9 @@ After=network.target
 [Service]
 User=root
 Group=root
-ExecStart=/usr/local/bin/caddy run --config /etc/caddy/Caddyfile
-ExecReload=/usr/local/bin/caddy reload --config /etc/caddy/Caddyfile
+EnvironmentFile=/etc/redirect.env
+ExecStart=/usr/bin/caddy run --config /etc/caddy/Caddyfile
+ExecReload=/usr/bin/caddy reload --config /etc/caddy/Caddyfile
 Restart=on-failure
 TimeoutStopSec=5s
 LimitNOFILE=1048576

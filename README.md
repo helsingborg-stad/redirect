@@ -21,6 +21,10 @@ on TCP port 80.
 
 ## TLS
 
+Set `REDIRECT_BASE_DOMAIN` in the Caddy process environment (for example,
+`redirect.helsingborg.se`). This hostname serves `GET /healtz` with `200 OK`;
+it is not a redirect record.
+
 Before adding or deploying a redirect, point the domain's A/AAAA record at the
 redirect service's public IP, ensure TCP ports 80 and 443 are reachable, and allow
 the ACME issuer in CAA. Caddy obtains and renews each certificate with HTTP-01.
