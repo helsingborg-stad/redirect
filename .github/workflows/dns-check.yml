@@ -1,0 +1,19 @@
+name: DNS check
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  dns-check:
+    name: Check redirect DNS
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check DNS and publish report
+        run: python3 scripts/check_dns.py
