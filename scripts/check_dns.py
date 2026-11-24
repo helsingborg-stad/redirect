@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Check redirect hostnames and write a GitHub Actions DNS summary."""
 
+from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
 import os
 from pathlib import Path
@@ -59,21 +60,41 @@ def code(value):
 
 
 def report(results):
-    missing, errors = [], []
-    lines = ["# DNS report", "", "| Hostname | CNAME | AAAA | A record |", "| --- | --- | --- | --- |"]
+    # Compare complete record sets, counting each hostname once per type.
+    # Optional CNAME/AAAA records participate only when present.
+    common = {}
+    for kind in RECORD_TYPES:
+        counts = Counter(tuple(sorted(set(records[kind]))) for _, records, failures in results
+                         if records[kind] and not failures)
+        highest = max(counts.values(), default=0)
+        common[kind] = {value for value, count in counts.items() if count == highest}
+
+    errors = []
+    failed_count = 0
+    lines = ["# DNS report", "", "| Status | Hostname | CNAME | AAAA | A record |", "| --- | --- | --- | --- | --- |"]
     for hostname, records, failures in results:
+        deviations = []
+        for kind in RECORD_TYPES:
+            value = tuple(sorted(set(records[kind])))
+            if common[kind] and (value or kind == "A") and value not in common[kind]:
+                deviations.append(kind)
+        if not any(records.values()):
+            deviations.append("no records")
         if failures:
             errors.append((hostname, "; ".join(failures)))
-        if not any(records.values()) and not failures:
-            missing.append(hostname)
+        failed = bool(deviations or failures)
+        failed_count += failed
+        status = "❌ Failed" if failed else "✅ OK"
+        if deviations:
+            status += " (" + ", ".join(deviations) + ")"
         values = [", ".join(map(code, records[kind])) or "-" for kind in ("CNAME", "AAAA", "A")]
-        lines.append(f"| {code(hostname)} | {' | '.join(values)} |")
-    lines += ["", f"Checked **{len(results)}** hostnames; **{len(missing)}** have no CNAME, A or AAAA record; **{len(errors)}** had lookup errors.", "", "A CNAME alone passes the record-presence check. Compare the reported addresses with the expected destination.", ""]
+        lines.append(f"| {status} | {code(hostname)} | {' | '.join(values)} |")
+    lines += ["", f"Checked **{len(results)}** hostnames; **{failed_count}** failed.", "", "Each record type is compared separately with its most common complete record set. Missing A records deviate when an A baseline exists; CNAME and AAAA are compared only when present. Tied most-common sets are accepted. Hostnames with no records or lookup errors fail.", ""]
     if errors:
         lines += ["## Lookup errors", "", "| Hostname | Error |", "| --- | --- |"]
         lines += [f"| {code(host)} | {code(error)} |" for host, error in errors]
         lines.append("")
-    return "\n".join(lines), bool(missing or errors)
+    return "\n".join(lines), bool(failed_count)
 
 
 def main():

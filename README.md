@@ -39,10 +39,12 @@ python ./make-caddy.py
 
 The **DNS check** GitHub Actions workflow runs on pull requests, pushes to `main`,
 and manual dispatch. Its job summary lists each redirect hostname with its CNAME,
-AAAA and A records. It includes the `www` aliases generated
-for root-domain entries. A hostname passes when it has at least one CNAME, A, or
-AAAA record; missing records and lookup errors fail the check. A CNAME without a
-resolved address still passes the check. Compare the reported IPs with the service's
-public IP to verify their destinations; the check does not enforce an expected IP.
+AAAA and A records. It includes the `www` aliases generated for root-domain
+entries. Each hostname is marked OK or failed by comparing its complete record
+sets with the most common set for each type separately. A missing A record fails
+when an A baseline exists; CNAME and AAAA are compared only when present. Tied
+most-common sets are accepted. Missing records and lookup errors also fail the
+check. The most common values are assumed correct, so review the report if the
+majority could be pointing to the wrong destination.
 
 Run it locally with `python3 scripts/check_dns.py` (requires `dig`).
