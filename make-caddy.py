@@ -21,13 +21,14 @@ class Domain:
         return f"<Domain domain:{self.domain}, path:{self.path}, permanent:{self.permanent}>"
 
     def to_caddyblock(self) -> str:
-        # Root domains receive the www alias; every source hostname is otherwise
-        # an explicit Caddy site address and obtains its own HTTP-01 certificate.
+        # Root domains receive the www alias. Certificates for redirect hosts
+        # are obtained only when that hostname is first requested, rather than
+        # trying every catalogue entry when Caddy starts.
         if self.filename.count(".") == 1:  # Root domain has only one dot (e.g., example.com)
             hosts = f"{self.filename}, www.{self.filename}"
         else:
             hosts = self.filename
-        return f"{hosts} {{\n\t{self.redirect}\n}}\n\n"
+        return f"{hosts} {{\n\ttls {{\n\t\ton_demand\n\t}}\n\t{self.redirect}\n}}\n\n"
 
 def read_files() -> dict[str, Domain]:
     domainList = {}
