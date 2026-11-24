@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 """Check redirect hostnames and write a GitHub Actions DNS summary."""
 
-from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor
-import ipaddress
 import os
 from pathlib import Path
 import re
@@ -61,28 +59,16 @@ def code(value):
 
 
 def report(results):
-    groups = defaultdict(list)
     missing, errors = [], []
+    lines = ["# DNS report", "", "| Hostname | CNAME | AAAA | A record |", "| --- | --- | --- | --- |"]
     for hostname, records, failures in results:
         if failures:
             errors.append((hostname, "; ".join(failures)))
         if not any(records.values()) and not failures:
             missing.append(hostname)
-        for address in set(records["A"] + records["AAAA"]):
-            groups[address].append((hostname, records["CNAME"]))
-    lines = ["# DNS report", "", f"Checked **{len(results)}** hostnames; **{len(missing)}** have no CNAME, A or AAAA record; **{len(errors)}** had lookup errors.", "", "A hostname with a CNAME but no resolved IP passes the record-presence check and is listed separately below. This report does not verify that an IP is the expected destination.", ""]
-    for address in sorted(groups, key=lambda value: (ipaddress.ip_address(value).version, ipaddress.ip_address(value))):
-        lines += [f"## {code(address)}", "", "| Hostname | CNAME |", "| --- | --- |"]
-        for hostname, cnames in sorted(groups[address]):
-            lines.append(f"| {code(hostname)} | {', '.join(map(code, cnames)) or '—'} |")
-        lines.append("")
-    cname_only = [(host, records["CNAME"]) for host, records, _ in results if records["CNAME"] and not (records["A"] or records["AAAA"])]
-    if cname_only:
-        lines += ["## CNAME without resolved IP", "", "| Hostname | CNAME |", "| --- | --- |"]
-        lines += [f"| {code(host)} | {', '.join(map(code, cnames))} |" for host, cnames in cname_only]
-        lines.append("")
-    if missing:
-        lines += ["## No DNS records", ""] + [f"- {code(host)}" for host in missing] + [""]
+        values = [", ".join(map(code, records[kind])) or "-" for kind in ("CNAME", "AAAA", "A")]
+        lines.append(f"| {code(hostname)} | {' | '.join(values)} |")
+    lines += ["", f"Checked **{len(results)}** hostnames; **{len(missing)}** have no CNAME, A or AAAA record; **{len(errors)}** had lookup errors.", "", "A CNAME alone passes the record-presence check. Compare the reported addresses with the expected destination.", ""]
     if errors:
         lines += ["## Lookup errors", "", "| Hostname | Error |", "| --- | --- |"]
         lines += [f"| {code(host)} | {code(error)} |" for host, error in errors]

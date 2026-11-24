@@ -38,11 +38,11 @@ python ./make-caddy.py
 ## DNS report
 
 The **DNS check** GitHub Actions workflow runs on pull requests, pushes to `main`,
-and manual dispatch. Its job summary groups redirect hostnames by resolved IPv4
-or IPv6 address and shows CNAME targets. It includes the `www` aliases generated
+and manual dispatch. Its job summary lists each redirect hostname with its CNAME,
+AAAA and A records. It includes the `www` aliases generated
 for root-domain entries. A hostname passes when it has at least one CNAME, A, or
 AAAA record; missing records and lookup errors fail the check. A CNAME without a
-resolved address is listed separately. Compare the reported IPs with the service's
+resolved address still passes the check. Compare the reported IPs with the service's
 public IP to verify their destinations; the check does not enforce an expected IP.
 
 Run it locally with `python3 scripts/check_dns.py` (requires `dig`).
