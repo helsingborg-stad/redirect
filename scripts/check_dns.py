@@ -91,7 +91,7 @@ def report(results):
         rows[failed].append(f"| {status} | {code(hostname)} | {' | '.join(values)} |")
     lines = ["# DNS report", ""]
     for failed, title in ((True, "Failed domains"), (False, "OK domains")):
-        lines += [f"## {title}", "", "| Status | Hostname | CNAME | AAAA | A record |", "| --- | --- | --- | --- | --- |"]
+        lines += [f"## {title} ({len(rows[failed])})", "", "| Status | Hostname | CNAME | AAAA | A record |", "| --- | --- | --- | --- | --- |"]
         lines += rows[failed] or ["| — | — | — | — | — |"]
         lines.append("")
     lines += ["", f"Checked **{len(results)}** hostnames; **{failed_count}** failed.", "", "A and AAAA records are compared separately with their most common complete record set, only when present. CNAME hosts are classified by their resolved addresses; CNAME targets are not compared. Tied most-common sets are accepted. Hostnames with no records or lookup errors fail.", ""]
