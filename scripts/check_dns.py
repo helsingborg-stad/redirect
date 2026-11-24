@@ -71,7 +71,7 @@ def report(results):
 
     errors = []
     failed_count = 0
-    lines = ["# DNS report", "", "| Status | Hostname | CNAME | AAAA | A record |", "| --- | --- | --- | --- | --- |"]
+    rows = {True: [], False: []}
     for hostname, records, failures in results:
         deviations = []
         for kind in ("A", "AAAA"):
@@ -88,7 +88,12 @@ def report(results):
         if deviations:
             status += " (" + ", ".join(deviations) + ")"
         values = [", ".join(map(code, records[kind])) or "-" for kind in ("CNAME", "AAAA", "A")]
-        lines.append(f"| {status} | {code(hostname)} | {' | '.join(values)} |")
+        rows[failed].append(f"| {status} | {code(hostname)} | {' | '.join(values)} |")
+    lines = ["# DNS report", ""]
+    for failed, title in ((True, "Failed domains"), (False, "OK domains")):
+        lines += [f"## {title}", "", "| Status | Hostname | CNAME | AAAA | A record |", "| --- | --- | --- | --- | --- |"]
+        lines += rows[failed] or ["| — | — | — | — | — |"]
+        lines.append("")
     lines += ["", f"Checked **{len(results)}** hostnames; **{failed_count}** failed.", "", "A and AAAA records are compared separately with their most common complete record set, only when present. CNAME hosts are classified by their resolved addresses; CNAME targets are not compared. Tied most-common sets are accepted. Hostnames with no records or lookup errors fail.", ""]
     if errors:
         lines += ["## Lookup errors", "", "| Hostname | Error |", "| --- | --- |"]
