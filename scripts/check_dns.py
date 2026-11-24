@@ -71,7 +71,7 @@ def report(results):
 
     errors = []
     failed_count = 0
-    rows = {True: [], False: []}
+    rows = {"failed": [], "warning": [], "ok": []}
     for hostname, records, failures in results:
         deviations = []
         for kind in ("A", "AAAA"):
@@ -84,17 +84,19 @@ def report(results):
             errors.append((hostname, "; ".join(failures)))
         failed = bool(deviations or failures)
         failed_count += failed
-        status = "❌ Failed" if failed else "✅ OK"
+        warning = hostname.count(".") > 1 and not records["CNAME"] and not failed
+        category = "failed" if failed else "warning" if warning else "ok"
+        status = "❌ Failed" if failed else "🟠 Warning (missing CNAME)" if warning else "✅ OK"
         if deviations:
             status += " (" + ", ".join(deviations) + ")"
         values = [", ".join(map(code, records[kind])) or "-" for kind in ("CNAME", "AAAA", "A")]
-        rows[failed].append(f"| {status} | {code(hostname)} | {' | '.join(values)} |")
+        rows[category].append(f"| {status} | {code(hostname)} | {' | '.join(values)} |")
     lines = ["# DNS report", ""]
-    for failed, title in ((True, "Failed domains"), (False, "OK domains")):
-        lines += [f"## {title} ({len(rows[failed])})", "", "| Status | Hostname | CNAME | AAAA | A record |", "| --- | --- | --- | --- | --- |"]
-        lines += rows[failed] or ["| — | — | — | — | — |"]
+    for category, title in (("failed", "Failed domains"), ("warning", "Warnings"), ("ok", "OK domains")):
+        lines += [f"## {title} ({len(rows[category])})", "", "| Status | Hostname | CNAME | AAAA | A record |", "| --- | --- | --- | --- | --- |"]
+        lines += rows[category] or ["| — | — | — | — | — |"]
         lines.append("")
-    lines += ["", f"Checked **{len(results)}** hostnames; **{failed_count}** failed.", "", "A and AAAA records are compared separately with their most common complete record set, only when present. CNAME hosts are classified by their resolved addresses; CNAME targets are not compared. Tied most-common sets are accepted. Hostnames with no records or lookup errors fail.", ""]
+    lines += ["", f"Checked **{len(results)}** hostnames; **{failed_count}** failed.", "", "A and AAAA records are compared separately with their most common complete record set, only when present. CNAME hosts are classified by their resolved addresses; CNAME targets are not compared. Tied most-common sets are accepted. Hostnames with no records or lookup errors fail. Subdomains without a CNAME are warnings.", ""]
     if errors:
         lines += ["## Lookup errors", "", "| Hostname | Error |", "| --- | --- |"]
         lines += [f"| {code(host)} | {code(error)} |" for host, error in errors]

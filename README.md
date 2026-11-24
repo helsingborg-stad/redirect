@@ -44,7 +44,8 @@ entries. Each hostname is marked OK or failed by comparing its complete record
 sets with the most common set for A and AAAA separately. CNAME hosts are classified
 by their resolved addresses, not their CNAME targets. Empty record types are
 excluded from the comparison. Tied
-most-common sets are accepted. Missing records and lookup errors also fail the
+most-common sets are accepted. Subdomains without CNAME records receive a warning;
+missing records and lookup errors also fail the
 check. The most common values are assumed correct, so review the report if the
 majority could be pointing to the wrong destination.
 
