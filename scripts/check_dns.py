@@ -77,6 +77,17 @@ def code(value):
     return "`" + str(value).replace("`", "'").replace("|", "\\|").replace("\n", " ") + "`"
 
 
+def domain_link(value):
+    # Keep DNS names in ASCII in the URL while displaying internationalized labels.
+    try:
+        display = value.encode("ascii").decode("idna")
+    except (UnicodeError, ValueError):
+        display = value
+    if not re.fullmatch(r"[A-Za-z0-9.-]+", value):
+        return code(display)
+    return f"[{code(display)}](https://{value})"
+
+
 def report(results):
     # Compare complete record sets, counting each hostname once per type.
     # Empty record sets do not participate in comparisons.
@@ -107,8 +118,10 @@ def report(results):
         status = "❌ Failed" if failed else "🟠 Warning (missing CNAME)" if warning else "✅ OK"
         if deviations:
             status += " (" + ", ".join(deviations) + ")"
-        values = [", ".join(map(code, records[kind])) or "-" for kind in ("CNAME", "AAAA", "A", "NS")]
-        rows[category].append(f"| {status} | {code(hostname)} | {' | '.join(values)} |")
+        values = [", ".join(domain_link(value) if kind in ("CNAME", "NS") else code(value)
+                            for value in records[kind]) or "-"
+                  for kind in ("CNAME", "AAAA", "A", "NS")]
+        rows[category].append(f"| {status} | {domain_link(hostname)} | {' | '.join(values)} |")
     lines = ["# DNS report", ""]
     for category, title in (("failed", "Failed domains"), ("warning", "Warnings"), ("ok", "OK domains")):
         lines += [f"## {title} ({len(rows[category])})", "", "| Status | Hostname | CNAME | AAAA | A record | NS record |", "| --- | --- | --- | --- | --- | --- |"]
@@ -117,7 +130,7 @@ def report(results):
     lines += ["", f"Checked **{len(results)}** hostnames; **{failed_count}** failed.", "", "A and AAAA records are compared separately with their most common complete record set, only when present. CNAME hosts are classified by their resolved addresses; CNAME targets are not compared. Tied most-common sets are accepted. Hostnames with no records or lookup errors fail. Subdomains without a CNAME are warnings.", ""]
     if errors:
         lines += ["## Lookup errors", "", "| Hostname | Error |", "| --- | --- |"]
-        lines += [f"| {code(host)} | {code(error)} |" for host, error in errors]
+        lines += [f"| {domain_link(host)} | {code(error)} |" for host, error in errors]
         lines.append("")
     return "\n".join(lines), bool(failed_count)
 
