@@ -40,9 +40,24 @@ def lookup(hostname, record_type):
     records = []
     for line in result.stdout.splitlines():
         fields = line.split()
-        if len(fields) >= 5 and fields[3] == record_type:
+        if (len(fields) >= 5 and fields[3] == record_type
+                and (record_type != "NS" or fields[0].rstrip(".").lower() == hostname.rstrip(".").lower())):
             records.append(fields[4].rstrip("."))
     return sorted(set(records)), None
+
+
+def lookup_nameservers(hostname):
+    # NS records belong to a zone, which may be a parent of the hostname.
+    # Ignore NS answers for CNAME targets: they govern a different zone.
+    labels = hostname.rstrip(".").split(".")
+    for index in range(len(labels)):
+        zone = ".".join(labels[index:])
+        nameservers, error = lookup(zone, "NS")
+        if error:
+            return [], f"NS ({zone}): {error}"
+        if nameservers:
+            return nameservers, None
+    return [], "NS: no authoritative nameservers found"
 
 
 def check_host(hostname):
@@ -51,6 +66,9 @@ def check_host(hostname):
         records[record_type], error = lookup(hostname, record_type)
         if error:
             errors.append(f"{record_type}: {error}")
+    records["NS"], error = lookup_nameservers(hostname)
+    if error:
+        errors.append(error)
     return hostname, records, errors
 
 
@@ -78,7 +96,7 @@ def report(results):
             value = tuple(sorted(set(records[kind])))
             if value and common[kind] and value not in common[kind]:
                 deviations.append(kind)
-        if not any(records.values()):
+        if not any(records[kind] for kind in RECORD_TYPES):
             deviations.append("no records")
         if failures:
             errors.append((hostname, "; ".join(failures)))
@@ -89,12 +107,12 @@ def report(results):
         status = "❌ Failed" if failed else "🟠 Warning (missing CNAME)" if warning else "✅ OK"
         if deviations:
             status += " (" + ", ".join(deviations) + ")"
-        values = [", ".join(map(code, records[kind])) or "-" for kind in ("CNAME", "AAAA", "A")]
+        values = [", ".join(map(code, records[kind])) or "-" for kind in ("CNAME", "AAAA", "A", "NS")]
         rows[category].append(f"| {status} | {code(hostname)} | {' | '.join(values)} |")
     lines = ["# DNS report", ""]
     for category, title in (("failed", "Failed domains"), ("warning", "Warnings"), ("ok", "OK domains")):
-        lines += [f"## {title} ({len(rows[category])})", "", "| Status | Hostname | CNAME | AAAA | A record |", "| --- | --- | --- | --- | --- |"]
-        lines += rows[category] or ["| — | — | — | — | — |"]
+        lines += [f"## {title} ({len(rows[category])})", "", "| Status | Hostname | CNAME | AAAA | A record | NS record |", "| --- | --- | --- | --- | --- | --- |"]
+        lines += rows[category] or ["| — | — | — | — | — | — |"]
         lines.append("")
     lines += ["", f"Checked **{len(results)}** hostnames; **{failed_count}** failed.", "", "A and AAAA records are compared separately with their most common complete record set, only when present. CNAME hosts are classified by their resolved addresses; CNAME targets are not compared. Tied most-common sets are accepted. Hostnames with no records or lookup errors fail. Subdomains without a CNAME are warnings.", ""]
     if errors:

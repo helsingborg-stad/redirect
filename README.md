@@ -39,7 +39,8 @@ python ./make-caddy.py
 
 The **DNS check** GitHub Actions workflow runs on pull requests, pushes to `main`,
 and manual dispatch. Its job summary lists each redirect hostname with its CNAME,
-AAAA and A records. It includes the `www` aliases generated for root-domain
+AAAA and A records, plus the authoritative nameservers for the hostname’s closest
+zone. It includes the `www` aliases generated for root-domain
 entries. Each hostname is marked OK or failed by comparing its complete record
 sets with the most common set for A and AAAA separately. CNAME hosts are classified
 by their resolved addresses, not their CNAME targets. Empty record types are
